@@ -30,10 +30,15 @@
 	<link rel="stylesheet" href="css/font-awesome.css" type="text/css"/><!-- PrettyPhoto -->    
 	<link rel="stylesheet" href="css/shortcodes.css" type="text/css"/> 	
 	<link rel="stylesheet" href="css/media.css"><!-- Media Queries -->
-         
+
+
     
  	<link id="layout_color" href="css/light.css" rel="stylesheet" type="text/css"/>  
-    <link id="primary_color_scheme" href="css/colors/yellow.css" rel="stylesheet" type="text/css"/>      
+    <link id="primary_color_scheme" href="css/colors/yellow.css" rel="stylesheet" type="text/css"/>   
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>   
        
     <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -115,9 +120,9 @@
                   <li><a href="#home">Home</a></li>
                   <li><a href="#about">About</a></li>
                   <li><a href="#portfolio">Events</a></li>
-		              <li><a href="#team">Workshop</a></li>
+		              <li><a href="#portfolio">Workshop</a></li>
                   <li><a href="#services">Gallery</a></li>
-                  <li><a href="#services">Contact</a></li>
+                  <li><a href="#contact">Contact</a></li>
                   
               </ul>
               <!-- END NAVIGATION MENU ITEMS -->				
@@ -145,35 +150,53 @@
                 </div><!-- END ROW -->  
       
                   <div class="row">          
-                          <div class="one-third column">
-                            <div class="service-features">
-                            <div class="img-container">
-                              <img src="images/paperplane.png" alt="Service Features">
-                            </div>  
-                              <h3>RCOEM</h3>                
-                             </div>               
-                          </div><!-- END ONE THIRD COLUMN -->
-                          
-                          <div class="one-third column">
-                            <div class="service-features">
-                            <div class="img-container">
-                              <img src="images/lab.png" alt="Service Features">
-                            </div>                   
+                        
+                        <!-- Open Modal for RCOEM-->  
+                        <a href="#" class="btn btn-lg btn-success" 
+                                 data-toggle="modal" 
+                                 data-target="#modalRcoem"> 
+                              <div class="one-third column">
+                                <div class="service-features">
+                                  <div class="img-container">
+                                    <img src="images/paperplane.png" alt="Service Features">
+                                  </div>  
+                               
+                                   <h3>RCOEM</h3>
 
-                              <h3>NEEV</h3>                
-                            </div>               
-                         
-                          </div><!-- END ONE THIRD COLUMNS -->   
+                                 </div>               
+                              </div><!-- END ONE THIRD COLUMN -->
+                          </a>
+                        <!--Open Modal For NEEV -->
+                        <a href="#" class="btn btn-lg btn-success" 
+                                 data-toggle="modal" 
+                                 data-target="#modalNeev"> 
+                              <div class="one-third column">
+                                <div class="service-features">
+                                  <div class="img-container">
+                                    <img src="images/paperplane.png" alt="Service Features">
+                                  </div>  
+                               
+                                   <h3>NEEV</h3>
+
+                                 </div>               
+                              </div><!-- END ONE THIRD COLUMN -->
+                          </a>
                           
-                          <div class="one-third column">
-                            <div class="service-features">
-                            <div class="img-container">                  
-                              <img src="images/like.png" alt="Service Features">
-                            </div>
-                              <h3>CESA</h3>                
-                            </div>               
-                          
-                          </div><!-- END ONE THIRD COLUMNS -->                 
+                          <!--Open Modal For CESA -->
+                        <a href="#" class="btn btn-lg btn-success" 
+                                 data-toggle="modal" 
+                                 data-target="#modalCesa"> 
+                              <div class="one-third column">
+                                <div class="service-features">
+                                  <div class="img-container">
+                                    <img src="images/paperplane.png" alt="Service Features">
+                                  </div>  
+                               
+                                   <h3>CESA</h3>
+
+                                 </div>               
+                              </div><!-- END ONE THIRD COLUMN -->
+                          </a>
                            
                     </div><!-- END ROW -->                                
              
@@ -264,7 +287,9 @@
 	
 	<!-- START PORTFOLIO SECTION -->
 	<div id="portfolio" class="page">
-	
+	 
+ 
+
     		<div class="container">	
                <div class="row">	
     			       <div class="sixteen columns">            
@@ -281,333 +306,70 @@
        	              
         </div><!-- END CONTAINER -->
         
-    </div>
-           <!-- END AJAX SECTION -->          
+         <!-- END AJAX SECTION -->          
               
          <div class="clear"></div>  
       
              
-   	
-   <div class="container clearfix">  
-   
-   <!-- START PORTFOLIO FILTERING -->   
-   <div  id="filters" class="sixteen columns">
+           	
+           <div class="container clearfix">  
+           
+           <!-- START PORTFOLIO FILTERING -->   
+           <div  id="filters" class="sixteen columns">
 
-      <ul class="clearfix">
+              <ul class="clearfix">
+               
+                <li><a href="#" data-filter="*" class="active"><h3>All</h3></a></li>	
+              
+                <li><a href="#" data-filter=".tshirts"><h3>Buildcon</h3></a></li>
+                
+                <li><a href="#" data-filter=".colleges"><h3>Mad4CAD</h3></a></li>
+                
+                <li><a href="#" data-filter=".fest"><h3>Town-O-Planner</h3></a></li>
+                
+                <li><a href="#" data-filter=".merchandising"><h3>Tender Filling</h3></a></li>
+                
+                <li><a href="#" data-filter=".sports" ><h3>Elucidation</h3></a></li>
+              
+                <li><a href="#" data-filter=".workshops"><h3>Workshop</h3></a></li>
+
+
       
-        <li><a href="#" data-filter="*" class="active"><h3>All</h3></a></li>	
-        
-        <li><a href="#" data-filter=".tshirts"><h3>Buildcon</h3></a></li>
-        
-        <li><a href="#" data-filter=".colleges"><h3>Mad4CAD</h3></a></li>
-        
-        <li><a href="#" data-filter=".fest"><h3>Town-O-Planner</h3></a></li>
-        
-        <li><a href="#" data-filter=".merchandising"><h3>Tender Filling</h3></a></li>
-        
-        <li><a href="#" data-filter=".sports"><h3>Elucidation</h3></a></li>
-      
-        <li><a href="#" data-filter=".sports"><h3>Workshop</h3></a></li>
-      
-      </ul>
-    </div><!-- END PORTFOLIO FILTERING -->    
-   </div><!-- END CONTAINER --> 
-   
-         
+              </ul>
+            </div><!-- END PORTFOLIO FILTERING -->    
+           </div><!-- END CONTAINER --> 
+ 
+                        
    <!-- START PORTFOLIO WRAP -->  
    <div id="portfolio-wrap">
     
-    <!-- START PORTFOLIO ITEM -->                   
-    <div class="portfolio-item one-third column tshirts merchandising">
-           <div class="portfolio">
-              
-              <a href="javaScript:void(0);" class="portfolio-image">
-                    
-                    <img src="images/portfolio1.jpg" alt="Portfolio 1"/><!-- END PORTFOLIO IMAGE -->   
-                    
-                    <div class="portfolio-overlay">                
-                        <div class="thumb-info">                
-                          <h3>Foliage Outdoors</h3><!-- OVERLAY TITLE -->  
-                          <p class="portfolio-tags">Tshirts, Merchandising</p><!-- END PORTFOLIO TAGS -->  
-                          <i class="icon-picture"></i><!-- OVERLAY ICON --> 
-                        </div>                
-                    </div><!-- END PORTFOLIO OVERLAY --> 
-                  
-              </a>
-           </div>
-    </div>
-    <!-- END PORTFOLIO ITEM -->    
-    
+             
                    
-    <!-- START PORTFOLIO ITEM -->                   
-    <div class="portfolio-item one-third column tshirts colleges">
-           <div class="portfolio">
-              <a href="javaScript:void(0);" class="portfolio-image">
-                <img src="images/portfolio2.jpg" alt="Portfolio 2"/><!-- END PORTFOLIO IMAGE -->   
-                
-                <div class="portfolio-overlay">                
-                    <div class="thumb-info">                
-                      <h3>VNIT Mining</h3><!-- OVERLAY TITLE -->  
-                      <p class="portfolio-tags">Tshirts, Colleges</p><!-- END PORTFOLIO TAGS -->  
-                      <i class="icon-picture"></i><!-- OVERLAY ICON --> 
-                    </div>                
-                </div><!-- END PORTFOLIO OVERLAY --> 
-              
-              </a>
-           </div>
-    </div>
-    <!-- END PORTFOLIO ITEM -->  
-               
-    <!-- START PORTFOLIO ITEM -->                   
-    <div class="portfolio-item one-third column tshirts colleges">
-           <div class="portfolio">
-              <a href="javaScript:void(0);" class="portfolio-image">
-                <img src="images/portfolio3.jpg" alt="Portfolio 3"/><!-- END PORTFOLIO IMAGE -->   
-                
-                <div class="portfolio-overlay">                
-                    <div class="thumb-info">                
-                      <h3>Metal is Forever</h3><!-- OVERLAY TITLE -->  
-                      <p class="portfolio-tags">Tshirts, Colleges</p><!-- END PORTFOLIO TAGS -->  
-                      <i class="icon-picture"></i><!-- OVERLAY ICON --> 
-                    </div>                
-                </div><!-- END PORTFOLIO OVERLAY --> 
-              
-              </a>
-           </div>
-    </div>
-    <!-- END PORTFOLIO ITEM -->
-                
-    <!-- START PORTFOLIO ITEM -->                   
-    <div class="portfolio-item one-third column tshirts colleges fest">
-           <div class="portfolio">
-              <a href="javaScript:void(0);" class="portfolio-image">
-                <img src="images/portfolio4.jpg" alt="Portfolio 4"/><!-- END PORTFOLIO IMAGE -->   
-                
-                <div class="portfolio-overlay">                
-                    <div class="thumb-info">                
-                      <h3>Pyrexia</h3><!-- OVERLAY TITLE -->  
-                      <p class="portfolio-tags">Tshirts, Colleges, Fest</p><!-- END PORTFOLIO TAGS -->  
-                      <i class="icon-picture"></i><!-- OVERLAY ICON --> 
-                    </div>                
-                </div><!-- END PORTFOLIO OVERLAY --> 
-              
-              </a>
-           </div>
-    </div>
-    <!-- END PORTFOLIO ITEM -->
-              
-              
-    <!-- START PORTFOLIO ITEM -->                   
-    <div class="portfolio-item one-third column tshirts colleges">
-           <div class="portfolio">
-              <a href="javaScript:void(0);" class="portfolio-image">
-                <img src="images/portfolio5.jpg" alt="Portfolio 5"/><!-- END PORTFOLIO IMAGE -->   
-                
-                <div class="portfolio-overlay">                
-                    <div class="thumb-info">                
-                      <h3>Chemical Engg</h3><!-- OVERLAY TITLE -->  
-                      <p class="portfolio-tags">Tshirts, Colleges</p><!-- END PORTFOLIO TAGS -->  
-                      <i class="icon-picture"></i><!-- OVERLAY ICON --> 
-                    </div>                
-                </div><!-- END PORTFOLIO OVERLAY --> 
-              
-              </a>
-           </div>
-    </div>
-    <!-- END PORTFOLIO ITEM -->
-              
-              
-    <!-- START PORTFOLIO ITEM -->                   
-    <div class="portfolio-item one-third column tshirts colleges fest">
-           <div class="portfolio">
-              <a href="javaScript:void(0);" class="portfolio-image">
-                <img src="images/portfolio6.jpg" alt="Portfolio 6"/><!-- END PORTFOLIO IMAGE -->   
-                
-                <div class="portfolio-overlay">                
-                    <div class="thumb-info">                
-                      <h3>NPTI Fest</h3><!-- OVERLAY TITLE -->  
-                      <p class="portfolio-tags">Tshirts, Colleges, Fest</p><!-- END PORTFOLIO TAGS -->  
-                      <i class="icon-picture"></i><!-- OVERLAY ICON --> 
-                    </div>                
-                </div><!-- END PORTFOLIO OVERLAY --> 
-              
-              </a>
-           </div>
-    </div>
-    <!-- END PORTFOLIO ITEM -->
-               
-    <!-- START PORTFOLIO ITEM -->                   
- <div class="portfolio-item one-third column  tshirts colleges">
-           <div class="portfolio">
-              <a href="javaScript:void(0);" class="portfolio-image">
-                <img src="images/portfolio7.jpg" alt="Portfolio 7"/><!-- END PORTFOLIO IMAGE -->   
-                
-                <div class="portfolio-overlay">                
-                    <div class="thumb-info">                
-                      <h3>Mechanical Engg</h3><!-- OVERLAY TITLE -->  
-                      <p class="portfolio-tags">Tshirts, Colleges</p><!-- END PORTFOLIO TAGS -->  
-                      <i class="icon-picture"></i><!-- OVERLAY ICON --> 
-                    </div>                
-                </div><!-- END PORTFOLIO OVERLAY --> 
-              
-              </a>
-           </div>
-    </div>
-    <!-- END PORTFOLIO ITEM -->
-              
-     <!-- START PORTFOLIO ITEM -->                   
-    <div class="portfolio-item one-third column  tshirts sports">
-           <div class="portfolio">
-              <a href="javaScript:void(0);" class="portfolio-image">
-                <img src="images/portfolio8.jpg" alt="Portfolio 8"/><!-- END PORTFOLIO IMAGE -->   
-                
-                <div class="portfolio-overlay">                
-                    <div class="thumb-info">                
-                      <h3>Sportskeeda</h3><!-- OVERLAY TITLE -->  
-                      <p class="portfolio-tags">Tshirts, Sports</p><!-- END PORTFOLIO TAGS -->  
-                      <i class="icon-picture"></i><!-- OVERLAY ICON --> 
-                    </div>                
-                </div><!-- END PORTFOLIO OVERLAY --> 
-              
-              </a>
-           </div>
-    </div>
-    <!-- END PORTFOLIO ITEM -->
-              
-     <!-- START PORTFOLIO ITEM -->                   
-    <div class="portfolio-item one-third column  tshirts merchandising">
-           <div class="portfolio">
-              <a href="javaScript:void(0);" class="portfolio-image">
-                <img src="images/portfolio9.jpg" alt="Portfolio 9"/><!-- END PORTFOLIO IMAGE -->   
-                
-                <div class="portfolio-overlay">                
-                    <div class="thumb-info">                
-                      <h3>Foliage Kids</h3><!-- OVERLAY TITLE -->  
-                      <p class="portfolio-tags">Tshirts, Merchandising</p><!-- END PORTFOLIO TAGS -->  
-                      <i class="icon-picture"></i><!-- OVERLAY ICON --> 
-                    </div>                
-                </div><!-- END PORTFOLIO OVERLAY --> 
-              
-              </a>
-           </div>
-    </div>
-    <!-- END PORTFOLIO ITEM -->
-              
-     <!-- START PORTFOLIO ITEM -->                   
-    <div class="portfolio-item one-third column  tshirts colleges">
-           <div class="portfolio">
-              <a href="javaScript:void(0);" class="portfolio-image">
-                <img src="images/portfolio10.jpg" alt="Portfolio 10"/><!-- END PORTFOLIO IMAGE -->   
-                
-                <div class="portfolio-overlay">                
-                    <div class="thumb-info">                
-                      <h3>Electronics Engg</h3><!-- OVERLAY TITLE -->  
-                      <p class="portfolio-tags">Tshirts, Colleges</p><!-- END PORTFOLIO TAGS -->  
-                      <i class="icon-picture"></i><!-- OVERLAY ICON --> 
-                    </div>                
-                </div><!-- END PORTFOLIO OVERLAY --> 
-              
-              </a>
-           </div>
-    </div>
-    <!-- END PORTFOLIO ITEM -->
-    
-    
-    <!-- START PORTFOLIO ITEM -->                   
-    <div class="portfolio-item one-third column  tshirts merchandising">
-           <div class="portfolio">
-              <a href="javaScript:void(0);" class="portfolio-image">
-                <img src="images/portfolio11.jpg" alt="Portfolio 11"/><!-- END PORTFOLIO IMAGE -->   
-                
-                <div class="portfolio-overlay">                
-                    <div class="thumb-info">                
-                      <h3>Vespa Men</h3><!-- OVERLAY TITLE -->  
-                      <p class="portfolio-tags">Tshirts, Merchandising</p><!-- END PORTFOLIO TAGS -->  
-                      <i class="icon-film"></i><!-- OVERLAY ICON --> 
-                    </div>                
-                </div><!-- END PORTFOLIO OVERLAY --> 
-              
-              </a>
-           </div>
-    </div>
-    <!-- END PORTFOLIO ITEM -->
-               
-    <!-- START PORTFOLIO ITEM -->                   
-    <div class="portfolio-item one-third column  tshirts colleges">
-           <div class="portfolio">
-              <a href="javaScript:void(0);" class="portfolio-image">
-                <img src="images/portfolio12.jpg" alt="Portfolio 12"/><!-- END PORTFOLIO IMAGE -->   
-                
-                <div class="portfolio-overlay">                
-                    <div class="thumb-info">                
-                      <h3>Civil Engg</h3><!-- OVERLAY TITLE -->  
-                      <p class="portfolio-tags">Tshirts, Colleges</p><!-- END PORTFOLIO TAGS -->  
-                      <i class="icon-picture"></i><!-- OVERLAY ICON --> 
-                    </div>                
-                </div><!-- END PORTFOLIO OVERLAY --> 
-              
-              </a>
-           </div>
-    </div>
-    <!-- END PORTFOLIO ITEM -->
-              
-     <!-- START PORTFOLIO ITEM -->                   
-    <div class="portfolio-item one-third column  tshirts merchandising">
-           <div class="portfolio">
-              <a href="javaScript:void(0);" class="portfolio-image">
-                <img src="images/portfolio13.jpg" alt="Portfolio 13"/><!-- END PORTFOLIO IMAGE -->   
-                
-                <div class="portfolio-overlay">                
-                    <div class="thumb-info">                
-                      <h3>Military</h3><!-- OVERLAY TITLE -->  
-                      <p class="portfolio-tags">Tshirts, Merchandising</p><!-- END PORTFOLIO TAGS -->  
-                      <i class="icon-picture"></i><!-- OVERLAY ICON --> 
-                    </div>                
-                </div><!-- END PORTFOLIO OVERLAY --> 
-              
-              </a>
-           </div>
-    </div>
-    <!-- END PORTFOLIO ITEM -->
-              
-     <!-- START PORTFOLIO ITEM -->                   
-    <div class="portfolio-item one-third column  tshirts colleges fest">
-           <div class="portfolio">
-              <a href="javaScript:void(0);" class="portfolio-image">
-                <img src="images/portfolio14.jpg" alt="Portfolio 14"/><!-- END PORTFOLIO IMAGE -->   
-                
-                <div class="portfolio-overlay">                
-                    <div class="thumb-info">                
-                      <h3>Arch Gala</h3><!-- OVERLAY TITLE -->  
-                      <p class="portfolio-tags">Tshirts, Fest, Colleges</p><!-- END PORTFOLIO TAGS -->  
-                      <i class="icon-picture"></i><!-- OVERLAY ICON --> 
-                    </div>                
-                </div><!-- END PORTFOLIO OVERLAY --> 
-              
-              </a>
-           </div>
-    </div>
-    <!-- END PORTFOLIO ITEM -->
-              
-     <!-- START PORTFOLIO ITEM -->                   
-    <div class="portfolio-item one-third column tshirts merchandising">
-           <div class="portfolio">
-              <a href="#javaScript:void(0);"  class="portfolio-image">
-                <img src="images/portfolio15.jpg" alt="Portfolio 15"/><!-- END PORTFOLIO IMAGE -->   
-                
-                <div class="portfolio-overlay">                
-                    <div class="thumb-info">                
-                      <h3>MAD NGO</h3><!-- OVERLAY TITLE -->  
-                      <p class="portfolio-tags">Tshirts, Merchandising</p><!-- END PORTFOLIO TAGS -->  
-                      <i class="icon-picture"></i><!-- OVERLAY ICON --> 
-                    </div>                
-                </div><!-- END PORTFOLIO OVERLAY --> 
-              
-              </a>
-           </div>
-    </div>
-    <!-- END PORTFOLIO ITEM -->    
-              
+              <!-- START PORTFOLIO ITEM -->                   
+              <div class="portfolio-item one-third column tshirts colleges workshops sports">
+                     <div class="portfolio">
+                        
+                        <a href="#" class="portfolio-image" data-toggle="modal" 
+                                 data-target="#myModal">
+                            <img src="images/portfolio2.jpg" alt="Portfolio 2"/><!-- END PORTFOLIO IMAGE -->   
+                            
+                            <div class="portfolio-overlay">                
+                                <div class="thumb-info">                
+                                
+                                  <h3>VNIT Mining</h3><!-- OVERLAY TITLE -->  
+                                  <p class="portfolio-tags">Tshirts, Colleges</p><!-- END PORTFOLIO TAGS -->  
+                                  <i class="icon-picture"></i><!-- OVERLAY ICON --> 
+
+
+
+                              </div>                
+                          </div><!-- END PORTFOLIO OVERLAY --> 
+                        
+                        </a>
+                       
+                     </div>
+              </div>
+              <!-- END PORTFOLIO ITEM -->  
              
    </div>
    <!-- END PORTFOLIO WRAPPER -->
@@ -643,38 +405,36 @@
                </div>
                <!-- END AJAX CONTENT -->
 <!-- START CLIENTS -->
-
-<div class="container clearfix">
-		    
-			<div class="sixteen columns" align="center">
-            
-            <h3>Our Sponsers</h3>
-            
-                <div class="client-logos">
-                  <a href="javaScript:void(0);" title="Vespa" class="clients"><img src="images/vespa.png" alt="Clients"></a>
-                  <a href="javaScript:void(0);" title="Facebook" class="clients"><img src="images/facebook.png" alt="Clients"></a>
-                  <a href="javaScript:void(0);" title="SAS" class="clients"><img src="images/SAS.png" alt="Clients"></a>
-                  <a href="javaScript:void(0);" title="ZS" class="clients"><img src="images/ZS.png" alt="Clients"></a>
-                  <a href="javaScript:void(0);" title="DELHI DAREDEVILS" class="clients"><img src="images/DDD.png" alt="Clients"></a>
-                  <a href="javaScript:void(0);" title="IIM-Ahemdabad" class="clients"><img src="images/iim-ahemdabad.png" alt="Clients"></a>
-                  <a href="javaScript:void(0);" title="Make A Difference NGO" class="clients"><img src="images/MAD.png" alt="Clients"></a>
-                  <a href="javaScript:void(0);" title="IIT-Bombay" class="clients"><img src="images/iit-bombay.png" alt="Clients"></a>              
-                </div><!-- END CLIENTS LIST --> 
+    <?php /*
+    <div class="container clearfix">
+    		    
+    			<div class="sixteen columns" align="center">
                 
-           <!-- <p>Sed ligula magna, porta in scelerisque ac, gravida fringilla sapien. Sed tempus urna in sem ultricies vehicula vulputate purus ultrices. Aenean orci libero, scelerisque non feugiat gravida, dignissim ut tortor. Phasellus et nulla eros. Morbi suscipit interdum molestie. Aenean fringilla dui magna.</p> -->               
-			 </div><!-- END SIXTEEN COLUMNS --> 
-	                       
-<!-- END CLIENTS -->		
-	</div></div></div>
+                <h3>Our Sponsers</h3>
+                
+                    <div class="client-logos">
+                      <a href="javaScript:void(0);" title="Vespa" class="clients"><img src="images/vespa.png" alt="Clients"></a>
+                      <a href="javaScript:void(0);" title="Facebook" class="clients"><img src="images/facebook.png" alt="Clients"></a>
+                      <a href="javaScript:void(0);" title="SAS" class="clients"><img src="images/SAS.png" alt="Clients"></a>
+                      <a href="javaScript:void(0);" title="ZS" class="clients"><img src="images/ZS.png" alt="Clients"></a>
+                      <a href="javaScript:void(0);" title="DELHI DAREDEVILS" class="clients"><img src="images/DDD.png" alt="Clients"></a>
+                      <a href="javaScript:void(0);" title="IIM-Ahemdabad" class="clients"><img src="images/iim-ahemdabad.png" alt="Clients"></a>
+                      <a href="javaScript:void(0);" title="Make A Difference NGO" class="clients"><img src="images/MAD.png" alt="Clients"></a>
+                      <a href="javaScript:void(0);" title="IIT-Bombay" class="clients"><img src="images/iit-bombay.png" alt="Clients"></a>              
+                    </div><!-- END CLIENTS LIST --> 
+                    
+               <!-- <p>Sed ligula magna, porta in scelerisque ac, gravida fringilla sapien. Sed tempus urna in sem ultricies vehicula vulputate purus ultrices. Aenean orci libero, scelerisque non feugiat gravida, dignissim ut tortor. Phasellus et nulla eros. Morbi suscipit interdum molestie. Aenean fringilla dui magna.</p> -->               
+    			 </div><!-- END SIXTEEN COLUMNS --> 
+    	                       
+    <!-- END CLIENTS -->		
+    	</div>
+    */
+      ?>
+</div></div>
 	<!-- END PORTFOLIO SECTION -->
+	
 
-
-
-
-
-
-
-	<!-- START CONTACT SECTION -->
+  <!-- START CONTACT SECTION -->
 	<div id="contact" class="page">
   
     
@@ -763,13 +523,10 @@
        <div class="copyright">
      <div class="container clearfix">
         <div class="sixteen columns">   
-        <div class="copyright-logo"><a href="#"><img src="images/logo2.png" alt="logo"/></a></div>   
+        <div class="copyright-logo"><a href="#">  <!-- <img src="images/logo2.png" alt="logo"/> --> NEEV 2015</a></div>   
            <div class="social-icons">
-              <div class="social-icon social-email"><a href="mailto:sales@thinstrokes.com" target="_blank" data-original-title="Email">Email</a></div>
-              <div class="social-icon social-facebook"><a href="http://www.facebook.com/thinstrokes" target="_blank" data-original-title="Facebook">Facebook</a></div>
-              
            </div>
-			<p>&copy; 2015-Thinstrokes</a>. All Rights Reserved. </p>
+			<p>&copy; 2015- CIVIL ROCEM</a>. All Rights Reserved. </p>
             
          </div> <!-- END SIXTEEN COLUMNS -->        
 	  </div><!-- END CONTAINER -->
@@ -778,34 +535,63 @@
       
 	</div>
     <!-- END CONTACT SECTION -->		
+
+
+<!-- Modals -->
+        <div class="container">
+                      <h2>Large Modal</h2>
+                      <!-- Trigger the modal with a button -->
+                      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Large Modal</button>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Modal Header</h4>
+                            </div>
+                            <div class="modal-body">
+                              <p>This is a large modal.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+        </div>          
 	
 	
    </div><!-- END PAGE WRAP --><div id="back-to-top"><a href="#">Back to Top</a></div>
-   
+ 
 
            
 
 	<!-- JARVIS THEME SCRIPTS -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>         
-    <script type="text/javascript" src="js/jquery.tweet.js"></script>         
-    <script type="text/javascript" src="js/jquery.form.js"></script>
-	<script type="text/javascript" src="js/jquery.queryloader2.js"></script>        
-    <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>  
-    <script type="text/javascript" src="js/jquery.fitvids.js"></script>  
-    <script type="text/javascript" src="js/jquery.appear.js"></script>  
-    <script type="text/javascript" src="js/jquery.slabtext.min.js"></script>   
-    <script type="text/javascript" src="js/jquery.fittext.js"></script>   
-	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
-	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
-	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-	<script type="text/javascript" src="js/jquery.sticky.js"></script>
-	<script type="text/javascript" src="js/selectnav.min.js"></script>    
-    <script type="text/javascript" src="js/SmoothScroll.js"></script>   
-    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>    
-    <script type="text/javascript" src="js/isotope.js"></script>    
-    <script type="text/javascript" src="js/bootstrap-modal.js"></script>   
-    <script type="text/javascript" src="js/shortcodes.js"></script>     
-	<script type="text/javascript" src="js/scripts.js"></script>            
+
+            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>         
+            <script type="text/javascript" src="js/jquery.tweet.js"></script>         
+            <script type="text/javascript" src="js/jquery.form.js"></script>
+        	<script type="text/javascript" src="js/jquery.queryloader2.js"></script>        
+            <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>  
+            <script type="text/javascript" src="js/jquery.fitvids.js"></script>  
+            <script type="text/javascript" src="js/jquery.appear.js"></script>  
+            <script type="text/javascript" src="js/jquery.slabtext.min.js"></script>   
+            <script type="text/javascript" src="js/jquery.fittext.js"></script>   
+        	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+        	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+        	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+        	<script type="text/javascript" src="js/jquery.sticky.js"></script>
+        	<script type="text/javascript" src="js/selectnav.min.js"></script>    
+            <script type="text/javascript" src="js/SmoothScroll.js"></script>   
+            <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>    
+            <script type="text/javascript" src="js/isotope.js"></script>    
+           <!-- 
+            <script type="text/javascript" src="js/bootstrap-modal.js"></script>   
+           -->
+            <script type="text/javascript" src="js/shortcodes.js"></script>     
+        	<script type="text/javascript" src="js/scripts.js"></script>            
                    
   	
 </body>

@@ -10,9 +10,9 @@
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 	<meta charset="UTF-8">
 	<title>Civil Rcoem</title>
-    <meta name="description" content="A Template by RocknRolla Designs"/>
-    <meta name="keywords" content="HTML, CSS, JavaScript, PHP"/>
-    <meta name="author" content="RocknRolla Designs"/>
+    <meta name="description" content="A Website for CIVIL RCOEM"/>
+    <meta name="keywords" content="NEEV, CESA, RCOEM"/>
+    <meta name="author" content="Pratik Upacharya"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
@@ -157,10 +157,13 @@
                                  data-target="#modalRcoem"> 
                               <div class="one-third column">
                                 <div class="service-features">
+                                 <!-- 
                                   <div class="img-container">
-                                    <img src="images/paperplane.png" alt="Service Features">
+                                    <img src="images/CollegeLogo.png" alt="Service Features">
                                   </div>  
-                               
+                               -->
+                                 <img src="images/CollegeLogo.png" alt="Service Features">
+                                  
                                    <h3>RCOEM</h3>
 
                                  </div>               
@@ -172,10 +175,14 @@
                                  data-target="#modalNeev"> 
                               <div class="one-third column">
                                 <div class="service-features">
-                                  <div class="img-container">
-                                    <img src="images/paperplane.png" alt="Service Features">
+                                 <!--  <div class="img-container">
+                                  
+                                    <img src="images/NeevLogo.png" alt="Service Features">
+                                  
                                   </div>  
-                               
+                               -->
+                                 <img src="images/NeevLogo.png" alt="Service Features">
+                                  
                                    <h3>NEEV</h3>
 
                                  </div>               
@@ -188,10 +195,13 @@
                                  data-target="#modalCesa"> 
                               <div class="one-third column">
                                 <div class="service-features">
+                                 <!--  
                                   <div class="img-container">
-                                    <img src="images/paperplane.png" alt="Service Features">
+                                    <img src="images/CesaLogo.png" alt="Service Features">
                                   </div>  
-                               
+                               -->
+                                 <img src="images/CesaLogo.png" alt="Service Features">
+                                  
                                    <h3>CESA</h3>
 
                                  </div>               
@@ -212,34 +222,26 @@
                            
 
                             <div class="row">
-                               
-                               <div class="four columns">
-                                 <div class="milestone-counter" data-perc="10000">
+                               <div class="one-third column">
+                                 <div class="milestone-counter" data-perc="20000">
                                    <span class="milestone-count highlight"></span>
                                    <h6 class="milestone-details">Participations</h6>
                                  </div>
                                </div><!-- END FOUR COLUMNS -->  
-
-                               <div class="four columns">
-                                 <div class="milestone-counter" data-perc="1000">
+                               <div class="one-third column">
+                                 <div class="milestone-counter" data-perc="15">
                                    <span class="milestone-count highlight"></span>
                                    <h6 class="milestone-details">Workshops</h6>
                                  </div>
                                </div><!-- END FOUR COLUMNS --> 
                                
-                               <div class="four columns">
-                                 <div class="milestone-counter" data-perc="152">
+                               <div class="one-third column">
+                                 <div class="milestone-counter" data-perc="75000">
                                    <span class="milestone-count highlight"></span>
-                                   <h6 class="milestone-details">Prizes</h6>
+                                   <h6 class="milestone-details">Prizes(Per Year)</h6>
                                  </div>
                                </div><!-- END FOUR COLUMNS --> 
-                               
-                               <div class="four columns">
-                                 <div class="milestone-counter" data-perc="302">
-                                   <span class="milestone-count highlight"></span>
-                                   <h6 class="milestone-details">Beers Gulped</h6>
-                                 </div>
-                               </div><!-- END FOUR COLUMNS -->                                                                                   
+                                                                                                                  
                            </div><!-- END ROW -->    
                      </div><!-- END CONTAINER --> 
                     </div>        
@@ -321,17 +323,20 @@
                
                 <li><a href="#" data-filter="*" class="active"><h3>All</h3></a></li>	
               
-                <li><a href="#" data-filter=".tshirts"><h3>Buildcon</h3></a></li>
+                <li><a href="#" data-filter=".buildcon"><h3>Buildcon</h3></a></li>
                 
-                <li><a href="#" data-filter=".colleges"><h3>Mad4CAD</h3></a></li>
+                <li><a href="#" data-filter=".mad4cad"><h3>Mad4CAD</h3></a></li>
                 
-                <li><a href="#" data-filter=".fest"><h3>Town-O-Planner</h3></a></li>
+                <li><a href="#" data-filter=".town-o-planner"><h3>Town-O-Planner</h3></a></li>
                 
-                <li><a href="#" data-filter=".merchandising"><h3>Tender Filling</h3></a></li>
+                <li><a href="#" data-filter=".tenderfilling"><h3>Tender Filling</h3></a></li>
                 
-                <li><a href="#" data-filter=".sports" ><h3>Elucidation</h3></a></li>
+                <li><a href="#" data-filter=".elucodation" ><h3>Elucidation</h3></a></li>
+          
+                <li><a href="#" data-filter=".flexomania"><h3>Flexomania</h3></a></li>
               
                 <li><a href="#" data-filter=".workshops"><h3>Workshop</h3></a></li>
+
               </ul>
             </div><!-- END PORTFOLIO FILTERING -->    
            </div><!-- END CONTAINER --> 
@@ -340,16 +345,16 @@
    <!-- START PORTFOLIO WRAP -->  
    <div id="portfolio-wrap">
               <!-- START PORTFOLIO ITEM -->                   
-              <div class="portfolio-item one-third column tshirts colleges workshops sports">
+              <div class="portfolio-item one-third column buildcon">
                      <div class="portfolio">
                         <a href="#" class="portfolio-image" data-toggle="modal" 
-                                 data-target="#myModal">
-                            <img src="images/portfolio2.jpg" alt="Portfolio 2"/><!-- END PORTFOLIO IMAGE -->   
+                                 data-target="#buildcon">
+                            <img src="images/Buildcon.png" alt="Portfolio 2"/><!-- END PORTFOLIO IMAGE -->   
                             <div class="portfolio-overlay">                
                                 <div class="thumb-info">                
-                                    <h3>VNIT Mining</h3><!-- OVERLAY TITLE -->  
-                                    <p class="portfolio-tags">Tshirts, Colleges</p><!-- END PORTFOLIO TAGS -->  
-                                    <i class="icon-picture"></i><!-- OVERLAY ICON --> 
+                                    <h3>Buildcon</h3><!-- OVERLAY TITLE -->  
+                                    <p class="portfolio-tags"></p><!-- END PORTFOLIO TAGS -->  
+                                     
                                 </div>                
                             </div><!-- END PORTFOLIO OVERLAY --> 
                         
@@ -357,7 +362,89 @@
                        
                      </div>
               </div>
-              <!-- END PORTFOLIO ITEM -->  
+              <!-- END PORTFOLIO ITEM -->
+
+
+              <!-- START PORTFOLIO ITEM -->                   
+              <div class="portfolio-item one-third column mad4cad">
+                     <div class="portfolio">
+                        <a href="#" class="portfolio-image" data-toggle="modal" 
+                                 data-target="#mad4cad">
+                            <img src="images/Mad4Cat.png" alt="Portfolio 2"/><!-- END PORTFOLIO IMAGE -->   
+                            <div class="portfolio-overlay">                
+                                <div class="thumb-info">                
+                                    <h3>MAD4CAD</h3><!-- OVERLAY TITLE -->                                      
+                                </div>                
+                            </div><!-- END PORTFOLIO OVERLAY --> 
+                         </a>
+                     </div>
+              </div>
+              <!-- END PORTFOLIO ITEM --> 
+
+
+              <!-- START PORTFOLIO ITEM -->                   
+              <div class="portfolio-item one-third column town-o-planner">
+                     <div class="portfolio">
+                        <a href="#" class="portfolio-image" data-toggle="modal" 
+                                 data-target="#town-o-planner">
+                            <img src="images/TownPlanning.png" alt="Portfolio 2"/><!-- END PORTFOLIO IMAGE -->   
+                            <div class="portfolio-overlay">                
+                                <div class="thumb-info">                
+                                    <h3>TOWNOPLANNER</h3><!-- OVERLAY TITLE -->                                      
+                                </div>                
+                            </div><!-- END PORTFOLIO OVERLAY --> 
+                         </a>
+                     </div>
+              </div>
+              <!-- END PORTFOLIO ITEM --> 
+
+              <!-- START PORTFOLIO ITEM -->                   
+              <div class="portfolio-item one-third column tenderfilling">
+                     <div class="portfolio">
+                        <a href="#" class="portfolio-image" data-toggle="modal" 
+                                 data-target="#tenderfilling">
+                            <img src="images/TenderLogo.png" alt="Portfolio 2"/><!-- END PORTFOLIO IMAGE -->   
+                            <div class="portfolio-overlay">                
+                                <div class="thumb-info">                
+                                    <h3>Tender Filling</h3><!-- OVERLAY TITLE -->                                      
+                                </div>                
+                            </div><!-- END PORTFOLIO OVERLAY --> 
+                         </a>
+                     </div>
+              </div>
+              <!-- END PORTFOLIO ITEM -->
+
+              <!-- START PORTFOLIO ITEM -->                   
+              <div class="portfolio-item one-third column elucidation">
+                     <div class="portfolio">
+                        <a href="#" class="portfolio-image" data-toggle="modal" 
+                                 data-target="#elucidation">
+                            <img src="images/Elucidation.png" alt="Portfolio 2"/><!-- END PORTFOLIO IMAGE -->   
+                            <div class="portfolio-overlay">                
+                                <div class="thumb-info">                
+                                    <h3>ELUCIDATION</h3><!-- OVERLAY TITLE -->                                      
+                                </div>                
+                            </div><!-- END PORTFOLIO OVERLAY --> 
+                         </a>
+                     </div>
+              </div>
+              <!-- END PORTFOLIO ITEM -->
+
+              <!-- START PORTFOLIO ITEM -->                   
+              <div class="portfolio-item one-third column flexomania">
+                     <div class="portfolio">
+                        <a href="#" class="portfolio-image" data-toggle="modal" 
+                                 data-target="#flexomania">
+                            <img src="images/FlexoMania.png" alt="Portfolio 2"/><!-- END PORTFOLIO IMAGE -->   
+                            <div class="portfolio-overlay">                
+                                <div class="thumb-info">                
+                                    <h3>FlexoMania</h3><!-- OVERLAY TITLE -->                                      
+                                </div>                
+                            </div><!-- END PORTFOLIO OVERLAY --> 
+                         </a>
+                     </div>
+              </div>
+              <!-- END PORTFOLIO ITEM -->                
    </div>
    <!-- END PORTFOLIO WRAPPER -->
 <br><br>
@@ -711,10 +798,14 @@
 
                                           <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                            <h4 class="modal-title">Modal Header</h4>
+                                            <center>  
+                                                    <h4 class="modal-title">CESA</h4>
+                                            </center>
                                           </div>
                                           <div class="modal-body">
+
                                             <p>This is a large modal.</p>
+                                          
                                           </div>
                                           <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -733,7 +824,7 @@
                           <!--Now we will add the modals for particular events  -->
 
                           <!-- EVENT 1  -->
-                            <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal fade" id="buildcon" role="dialog">
                               <div class="modal-dialog modal-lg">
                                 <div class="modal-content">
                                   <!-- To customize this modals , we will take help of rows and column feature of bootstrap -->
@@ -744,10 +835,37 @@
 
                                             <div class="modal-header">
                                               <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                              <h4 class="modal-title">Modal Header</h4>
+                                            <center>
+                                                <h4 class="modal-title">BUILDCON</h4>
+                                            </center>
                                             </div>
                                             <div class="modal-body">
-                                              <p>This is a large modal.</p>
+
+                                              <p> “Design is not just what it looks like and feels like. Design is how it works.”
+                                                                      -Steve Jobs
+                                                              Structres  are marvels of engineering and city icons because of their immense influence. They are the one which transforms the city from better to best. Building the structure using innovative thinking  helps to develop a city more efficiently.  A  model making event  gives an opportunity to the budding engineers to showcase their creativity and intelligence for development and to bring a change .It provides  a stage to think beyond the limits of how innovatively a structure can be made using simple mechanics principle .
+                                                              NEEV/BUILDCON-2015 , brings to you an opportunity to showcase your own marvel – A Structure with an immaculate blend of creativity and dexterity. Bring a robust and captivating one and remember…Triangles are strong! 
+                                                              This event gives a challenge to the participants to make a structure using popsicle sticks and glue as per the problem statement given by the committee .Participants have to bring the structure in the college at the decided event date. The structure is tested as per the said norms of the event.
+                                                              ENTRY TYPE  :Pre registrations are required  to be done and even spot entries are welcomed.
+                                                              Participation Charges- 150 INR per group
+                                                              Participation Format- group includes maximum of 4 members
+                                                              Problem statement will  be uploaded soonly ,
+                                                              buildon
+
+
+                                                              Details  - Team of 4 Members
+                                                                           - Problem statement available
+                                                                             on www.civilrcoem.in  
+                                                                           - Finished model testing
+                                                              Time     - 8:30 am on 19th October
+                                                              Fees     - Rs 160/- per team
+                                                              E mail   - buildneev15@gmail.com
+                                                              Contact - Shubham Mahesh
+                                                                              (9923117268)
+
+
+                                                  </p>
+                                            
                                             </div>
                                             <div class="modal-footer">
                                               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -763,6 +881,65 @@
                             </div>
 
                             <!-- Event 2-->
+                            <!-- EVENT 2  -->
+                            <div class="modal fade" id="mad4cad" role="dialog">
+                              <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                  <!-- To customize this modals , we will take help of rows and column feature of bootstrap -->
+                                  <div class="row">
+                                      <div class="col-sm-4"></div>
+
+                                      <div class="col-sm-4">
+
+                                            <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <center>
+                                                <h4 class="modal-title">MAD4CAD</h4>
+                                            </center>
+                                            </div>
+                                            <div class="modal-body">
+
+                                              <p> “Design is not just what it looks like and feels like. Design is how it works.”
+                                                                      -Steve Jobs
+                                                              Structres  are marvels of engineering and city icons because of their immense influence. They are the one which transforms the city from better to best. Building the structure using innovative thinking  helps to develop a city more efficiently.  A  model making event  gives an opportunity to the budding engineers to showcase their creativity and intelligence for development and to bring a change .It provides  a stage to think beyond the limits of how innovatively a structure can be made using simple mechanics principle .
+                                                              NEEV/BUILDCON-2015 , brings to you an opportunity to showcase your own marvel – A Structure with an immaculate blend of creativity and dexterity. Bring a robust and captivating one and remember…Triangles are strong! 
+                                                              This event gives a challenge to the participants to make a structure using popsicle sticks and glue as per the problem statement given by the committee .Participants have to bring the structure in the college at the decided event date. The structure is tested as per the said norms of the event.
+                                                              ENTRY TYPE  :Pre registrations are required  to be done and even spot entries are welcomed.
+                                                              Participation Charges- 150 INR per group
+                                                              Participation Format- group includes maximum of 4 members
+                                                              Problem statement will  be uploaded soonly ,
+                                                              buildon
+
+
+                                                              Details  - Team of 4 Members
+                                                                           - Problem statement available
+                                                                             on www.civilrcoem.in  
+                                                                           - Finished model testing
+                                                              Time     - 8:30 am on 19th October
+                                                              Fees     - Rs 160/- per team
+                                                              E mail   - buildneev15@gmail.com
+                                                              Contact - Shubham Mahesh
+                                                                              (9923117268)
+
+
+                                                  </p>
+                                            
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                            
+                                      </div>
+
+                                      <div class="col-sm-4"></div>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+
+
+
 
             </div>          
     	

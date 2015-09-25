@@ -332,9 +332,6 @@
                 <li><a href="#" data-filter=".sports" ><h3>Elucidation</h3></a></li>
               
                 <li><a href="#" data-filter=".workshops"><h3>Workshop</h3></a></li>
-
-
-      
               </ul>
             </div><!-- END PORTFOLIO FILTERING -->    
            </div><!-- END CONTAINER --> 
@@ -342,38 +339,29 @@
                         
    <!-- START PORTFOLIO WRAP -->  
    <div id="portfolio-wrap">
-    
-             
-                   
               <!-- START PORTFOLIO ITEM -->                   
               <div class="portfolio-item one-third column tshirts colleges workshops sports">
                      <div class="portfolio">
-                        
                         <a href="#" class="portfolio-image" data-toggle="modal" 
                                  data-target="#myModal">
                             <img src="images/portfolio2.jpg" alt="Portfolio 2"/><!-- END PORTFOLIO IMAGE -->   
-                            
                             <div class="portfolio-overlay">                
                                 <div class="thumb-info">                
-                                
-                                  <h3>VNIT Mining</h3><!-- OVERLAY TITLE -->  
-                                  <p class="portfolio-tags">Tshirts, Colleges</p><!-- END PORTFOLIO TAGS -->  
-                                  <i class="icon-picture"></i><!-- OVERLAY ICON --> 
-
-
-
-                              </div>                
-                          </div><!-- END PORTFOLIO OVERLAY --> 
+                                    <h3>VNIT Mining</h3><!-- OVERLAY TITLE -->  
+                                    <p class="portfolio-tags">Tshirts, Colleges</p><!-- END PORTFOLIO TAGS -->  
+                                    <i class="icon-picture"></i><!-- OVERLAY ICON --> 
+                                </div>                
+                            </div><!-- END PORTFOLIO OVERLAY --> 
                         
-                        </a>
+                         </a>
                        
                      </div>
               </div>
               <!-- END PORTFOLIO ITEM -->  
-             
    </div>
    <!-- END PORTFOLIO WRAPPER -->
 <br><br>
+
  <!-- START AJAX SECTION -->  
             <div id="ajax-section">     
              <div class="container clearfix"> 
@@ -404,194 +392,407 @@
                     <div id="ajax-content-inner"></div>
                </div>
                <!-- END AJAX CONTENT -->
-<!-- START CLIENTS -->
-    <?php /*
-    <div class="container clearfix">
-    		    
-    			<div class="sixteen columns" align="center">
-                
-                <h3>Our Sponsers</h3>
-                
-                    <div class="client-logos">
-                      <a href="javaScript:void(0);" title="Vespa" class="clients"><img src="images/vespa.png" alt="Clients"></a>
-                      <a href="javaScript:void(0);" title="Facebook" class="clients"><img src="images/facebook.png" alt="Clients"></a>
-                      <a href="javaScript:void(0);" title="SAS" class="clients"><img src="images/SAS.png" alt="Clients"></a>
-                      <a href="javaScript:void(0);" title="ZS" class="clients"><img src="images/ZS.png" alt="Clients"></a>
-                      <a href="javaScript:void(0);" title="DELHI DAREDEVILS" class="clients"><img src="images/DDD.png" alt="Clients"></a>
-                      <a href="javaScript:void(0);" title="IIM-Ahemdabad" class="clients"><img src="images/iim-ahemdabad.png" alt="Clients"></a>
-                      <a href="javaScript:void(0);" title="Make A Difference NGO" class="clients"><img src="images/MAD.png" alt="Clients"></a>
-                      <a href="javaScript:void(0);" title="IIT-Bombay" class="clients"><img src="images/iit-bombay.png" alt="Clients"></a>              
-                    </div><!-- END CLIENTS LIST --> 
-                    
-               <!-- <p>Sed ligula magna, porta in scelerisque ac, gravida fringilla sapien. Sed tempus urna in sem ultricies vehicula vulputate purus ultrices. Aenean orci libero, scelerisque non feugiat gravida, dignissim ut tortor. Phasellus et nulla eros. Morbi suscipit interdum molestie. Aenean fringilla dui magna.</p> -->               
-    			 </div><!-- END SIXTEEN COLUMNS --> 
-    	                       
-    <!-- END CLIENTS -->		
-    	</div>
-    */
-      ?>
-</div></div>
+
+
+            <!-- Sponsers section  -->
+                <?php /*
+                <div class="container clearfix">
+                		    
+                			<div class="sixteen columns" align="center">
+                            
+                            <h3>Our Sponsers</h3>
+                            
+                                <div class="client-logos">
+                                  <a href="javaScript:void(0);" title="Vespa" class="clients"><img src="images/vespa.png" alt="Clients"></a>
+                                  <a href="javaScript:void(0);" title="Facebook" class="clients"><img src="images/facebook.png" alt="Clients"></a>
+                                  <a href="javaScript:void(0);" title="SAS" class="clients"><img src="images/SAS.png" alt="Clients"></a>
+                                  <a href="javaScript:void(0);" title="ZS" class="clients"><img src="images/ZS.png" alt="Clients"></a>
+                                  <a href="javaScript:void(0);" title="DELHI DAREDEVILS" class="clients"><img src="images/DDD.png" alt="Clients"></a>
+                                  <a href="javaScript:void(0);" title="IIM-Ahemdabad" class="clients"><img src="images/iim-ahemdabad.png" alt="Clients"></a>
+                                  <a href="javaScript:void(0);" title="Make A Difference NGO" class="clients"><img src="images/MAD.png" alt="Clients"></a>
+                                  <a href="javaScript:void(0);" title="IIT-Bombay" class="clients"><img src="images/iit-bombay.png" alt="Clients"></a>              
+                                </div><!-- END CLIENTS LIST --> 
+                                
+                           <!-- <p>Sed ligula magna, porta in scelerisque ac, gravida fringilla sapien. Sed tempus urna in sem ultricies vehicula vulputate purus ultrices. Aenean orci libero, scelerisque non feugiat gravida, dignissim ut tortor. Phasellus et nulla eros. Morbi suscipit interdum molestie. Aenean fringilla dui magna.</p> -->               
+                			 </div><!-- END SIXTEEN COLUMNS --> 
+                	                       
+                <!-- END CLIENTS -->		
+                	</div>
+                */
+                  ?>
+</div>
+</div>
 	<!-- END PORTFOLIO SECTION -->
 	
 
   <!-- START CONTACT SECTION -->
 	<div id="contact" class="page">
-  
-    
-		<div class="container">	
+          <!-- START PARALLAX SECTION -->
+          	<div id="parallax4" class="parallax">
+                  <div class="bg4 parallax-bg">
 
-                
-          </div><!-- END CONTAINER -->  
+                  </div><!-- END PARALLAX BACKGROUND -->
+                  <div class="overlay">
 
-   
-<!-- START PARALLAX SECTION -->
-	<div id="parallax4" class="parallax">
-        <div class="bg4 parallax-bg"></div><!-- END PARALLAX BACKGROUND -->
-        <div class="overlay"></div><!-- END PATTERN OVERLAY -->
-        <div class="container clearfix">
-     
-                </div><!-- END PARALLAX CONTENT -->
-
-
-   </div><!-- END CONTAINER -->
-</div>
-     
-    <!-- END PARALLAX SECTION -->    
-<br>
-<br>
-
+                  </div><!-- END PATTERN OVERLAY -->
+                  <div class="container clearfix">
+                  </div><!-- END PARALLAX CONTENT -->
+             </div>  <!-- END PARALLAX SECTION -->    
+          <br>
+          
             <div class="row"> 
-                <div class="sixteen columns">            
-                        <!-- START TITLE -->              
-                  <div class="title">
-                    <h1>Contact Us</h1>
-                          </div><!-- END TITLE -->                               
-                </div><!-- END SIXTEEN COLUMNS -->  
-          </div><!-- END ROW -->    
+                  <div class="sixteen columns">            
+                      <!-- START TITLE -->              
+                            <div class="title">
+                                <h1>Contact Us</h1>
+                            </div><!-- END TITLE -->                               
+                    </div><!-- END SIXTEEN COLUMNS -->  
+            </div><!-- END ROW -->    
 
-		<div class="container clearfix">
-
-			<div class="sixteen columns">
-	 			
-	   <!-- START CONTACT BOX -->
-      <div class="contact-box">
-        <!-- START CONTACT FORM -->
-         <div id="contact-form">			
-            <form action="#" method="post">
-           <div class="subtitle">
-                      <p><br>For more inquiries drop us an email</p>
-                  </div><!-- END SUBTITLE -->
-                <div id="contact-input">
-                 <!--[if IE]>
-                    <label for="name">Name</label>
-                <![endif]-->
-                  <input type="text" name="contact[name]" id="name" placeholder="Name (required)" >
-                   <!--[if IE]>
-                   		<label for="email">Email</label>
-                    <![endif]-->
-                  <input type="text" name="contact[email]" id="email" placeholder="Email (required)">
-                   <!--[if IE]>
-                   		<label for="subject">Subject</label>
-                    <![endif]-->
-                  <input type="text" name="contact[subject]" id="subject" placeholder="Subject" >
-                </div>
-                <div id="contact-textarea">
-                 <!--[if IE]>
-                   		<label for="message">Your Message Here</label>
-                    <![endif]-->
-                  <textarea name="contact[message]" id="message" cols="39" rows="4" placeholder="Your Message"></textarea>
-                </div>
-                <div id="contact-submit">
-                  <div>
-                    <input name="submit" type="submit" id="submit" tabindex="5" value="Post Comment" class="comment-submit small button">
-                  </div>
-                </div>
-              </form> 
-         <div class="clear"></div>
-          </div>
-           <div class="result"></div>  
-		<!-- END CONTACT FORM -->
-
-       	
-		</div>
-
-        <!-- END CONTACT BOX -->
-		</div> <!-- END SIXTEEN COLUMNS -->        
-	</div><!-- END CONTAINER -->
- 
-      <!-- START COPYRIGHT SECTION -->   	
-       <div class="copyright">
-     <div class="container clearfix">
-        <div class="sixteen columns">   
-        <div class="copyright-logo"><a href="#">  <!-- <img src="images/logo2.png" alt="logo"/> --> NEEV 2015</a></div>   
-           <div class="social-icons">
-           </div>
-			<p>&copy; 2015- CIVIL ROCEM</a>. All Rights Reserved. </p>
-            
-         </div> <!-- END SIXTEEN COLUMNS -->        
-	  </div><!-- END CONTAINER -->
-     </div>
-     <!-- END COPYRIGHT SECTION -->	 
+          	<div class="container clearfix">
+                  <div class="sixteen columns">
+          	        <!-- START CONTACT BOX -->
+                      <div class="contact-box">
+                          <!-- START CONTACT FORM -->
+                          <div id="contact-form">			
+                                <form action="#" method="post">
+                                          <div class="subtitle">
+                                              <p><br>For more inquiries drop us an email</p>
+                                          </div><!-- END SUBTITLE -->
+                                          <div id="contact-input">
+                                                 <!--[if IE]>
+                                                    <label for="name">Name</label>
+                                                <![endif]-->
+                                                <input type="text" name="contact[name]" id="name" placeholder="Name (required)" >
+                                                <!--[if IE]>
+                                               		<label for="email">Email</label>
+                                                <![endif]-->
+                                                <input type="text" name="contact[email]" id="email" placeholder="Email (required)">
+                                                 <!--[if IE]>
+                                                 		<label for="subject">Subject</label>
+                                                  <![endif]-->
+                                                <input type="text" name="contact[subject]" id="subject" placeholder="Subject" >
+                                        </div>
+                                        <div id="contact-textarea">
+                                             <!--[if IE]>
+                                           		<label for="message">Your Message Here</label>
+                                            <![endif]-->
+                                             <textarea name="contact[message]" id="message" cols="39" rows="4" placeholder="Your Message"></textarea>
+                                        </div>
+                                        <div id="contact-submit">
+                                          <div>
+                                            <input name="submit" type="submit" id="submit" tabindex="5" value="Post Comment" class="comment-submit small button">
+                                          </div>
+                                        </div>
+                                </form> 
+                      <div class="clear"></div>
+                      </div>
+                     <div class="result"></div>  
+          		    <!-- END CONTACT FORM -->
+            		  </div>
+                  <!-- END CONTACT BOX -->
+          		</div> <!-- END SIXTEEN COLUMNS -->        
+          	</div><!-- END CONTAINER -->
+           
+        <!-- START COPYRIGHT SECTION -->   	
+             <div class="copyright">
+                <div class="container clearfix">
+                    <div class="sixteen columns">   
+                        <div class="copyright-logo"><a href="#">  <!-- <img src="images/logo2.png" alt="logo"/> --> NEEV 2015</a></div>   
+                        <div class="social-icons">
+                        </div>
+      			             <p>&copy; 2015- CIVIL ROCEM</a>. All Rights Reserved. </p>
+                     </div> <!-- END SIXTEEN COLUMNS -->        
+      	         </div><!-- END CONTAINER -->
+            </div>
+       <!-- END COPYRIGHT SECTION -->	 
       
 	</div>
     <!-- END CONTACT SECTION -->		
 
 
-<!-- Modals -->
-        <div class="container">
-                      <h2>Large Modal</h2>
-                      <!-- Trigger the modal with a button -->
-                      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Large Modal</button>
+            <!-- This section contains all the modals that are used in this website  -->
+            
+            <div class="container">
+                
+                          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Large Modal</button>
 
-                      <!-- Modal -->
-                      <div class="modal fade" id="myModal" role="dialog">
-                        <div class="modal-dialog modal-lg">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <button type="button" class="close" data-dismiss="modal">&times;</button>
-                              <h4 class="modal-title">Modal Header</h4>
-                            </div>
-                            <div class="modal-body">
-                              <p>This is a large modal.</p>
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          <!-- RCOEM MODAL -->
+
+                          <div class="modal fade" id="modalRcoem" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <!-- To customize this modals , we will take help of rows and column feature of bootstrap -->
+                                <div class="row">
+                                    <div class="col-sm-4"></div>
+
+                                    <div class="col-sm-4">
+
+                                          <div class="modal-header">
+                                         
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                             <center>
+                                                <h4 class="modal-title">Welcome RCOEM</h4>
+                                             </center>
+                                          
+                                          </div>
+                                          <div class="modal-body">
+                                            <p>RCOEM, situated in the heart of India in Nagpur city, was established in 1984 by Shri Ramdeobaba Sarvajanik Samiti, a trust which has been involved in community service for over four decades. 30 years of existence has helped RCOEM grow deep roots and establish a strong foundation in technical education. Journey of a student in this institute has always involved comprehensive knowledge building from practical skills, theoretical knowledge to personality development, which has given them a head-start in their career.</p>
+                                            <hr>
+                                            <br>
+                                            <h3>Our Vision</h3>
+                                            <p>
+                                              Shri Ramdeobaba College of Engineering and Management envisages the institute par excellence, providing world class Technical and Management Education.
+                                            </p>
+                                            <hr>
+                                            <br>
+                                            <h3>
+                                              Our Mission
+                                            </h3>
+                                            <p>To impart quality education in the field of Engineering and Management; to foster mutually beneficial relationship with industries; to create intellectually stimulating environment for learning, research, and promotion of professional and ethical values.</p>
+                                            <hr>
+                                            <br>
+                                            <h3>
+                                              Autonomy
+                                            </h3>
+                                            <p>RCOEM was granted progressive academic autonomy from the session 2011-12. Various statutory bodies such as Board of Management, Academic Council, Board of Studies, and Finance Committee have been constituted and an industry need-based syllabus has been introduced.</p>
+                                            <hr>
+                                            <br>
+                                            <h3>
+                                              Quality Policy
+                                            </h3>
+                                            <p>Shri Ramdeobaba College of Engineering and Management is committed to achieve exemplary standards in Engineering and Management Education. 
+
+                                                  We aim at continuous improvement of all our processes and will strive to provide environment conducive to the pursuit of knowledge and overall personality development. 
+                                                  We encourage all to adhere to the highest ethical standards and professional integrity to enhance the satisfaction level of all stakeholders.
+                                            </p>            
+
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                          </div>
+
+                                    </div>
+
+                                    <div class="col-sm-4"></div>
+                                </div>
+
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      </div>
-        </div>          
-	
+
+
+                          <!-- NEEV MODAL -->
+
+                          <div class="modal fade" id="modalNeev" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <!-- To customize this modals , we will take help of rows and column feature of bootstrap -->
+                                <div class="row">
+                                    <div class="col-sm-4"></div>
+
+                                    <div class="col-sm-4">
+
+                                          <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <center>  
+                                                  <h4 class="modal-title">NEEV</h4>
+                                            </center>
+                                          </div>
+                                          <div class="modal-body">
+                                          
+                                            <p>NEEV is a technical extravaganza organized by the civil engineering students association of the Department of civil engineering of Shri Ramdeobaba college of Engineering and management every year with an aim to provide a platform for civil engineering students to enhance their technical skills and to bridge the gap between classroom teaching and practical application. The Advancement of construction industry has opened up many new business avenues for civil engineering fraternity. The aim of this year’s NEEV is to make students aware of the concepts of the SMART CITY initiative taken by Government of India with a vision to provide guidance on the aspects of Civil Engineering required to develop a Smart City.
+                                                The SMART City concept not only requires development of Structures but to infuse these Structures with Information Technology. A Civil Engineer hence must have a sound knowledge of the accommodation of the Concepts of Information Technology in development of Infrastructure. Stress will be on Clean Energy Initiatives and Improving Quality Standards of lifestyle of people. It also involves Exploring new Horizons through Entrepreneurship Development.
+                                                It is with constant perseverance that Civil Engineering Department tries to bring out a bigger and better version of NEEV every year. The three day program also includes technical competition like Computer Aided Design (AUTOCAD), Town Planning, Technical Paper Presentation, Tendering etc. Cultural programs in the evening to make the whole event livelier.
+                                            </p>
+                                            <hr>
+                                            <br>
+                                            <h3>
+                                              WORKSHOP
+                                            </h3>             
+                                            <ul>
+                                              <li> <strong>• Overview of Smart City :</strong>
+                                                  Manager,Tata Consulting Engineers(TCE)  
+                                              </li> 
+
+                                              <li> <strong>• Sustainable TransportationSystem:</strong>
+                                                  Member,Indian Road Congress(IRC)  
+                                              </li>
+
+                                              <li> <strong>• Enviromental control Measures (sanitation system):</strong>
+                                                  Professor,NIT Raipur
+                                              </li>
+
+                                              <li> <strong>• Green Building:</strong>
+                                                  Professor,VNIT  
+                                              </li>
+
+                                              <li> <strong>• Urban Development :</strong>                                                
+                                                        IES officer,urban Development Board
+                                              </li>
+
+                                              <li> <strong>• Tourism:</strong>
+                                                  IES Officer,Mumbai  
+                                              </li>
+
+                                              <li> <strong>• ICT(Information and Comminication Technology) :</strong>
+                                                  Professor,RCOEM(PhD,Information Technology)
+                                              </li>      
+
+                                              <li> <strong>• GIS and Remote Sensing:</strong>
+                                                  
+                                              </li>            
+                                            </ul>
+                                            <hr>
+                                            <br>
+                                            <h3>
+                                                ACTIVITES @NEEV
+                                            </h3>     
+                                                <h4><strong>COMPETITION</strong></h4>
+                                                <ul>
+                                                  <li><p>
+                                                        <strong>• MAD4CAD</strong>
+                                                    </p>
+                                                  </li>
+
+                                                  <li><p>
+                                                        <strong>• TOWN O PLANNER</strong>
+                                                    </p>
+                                                  </li>
+
+                                                  <li><p>
+                                                        <strong>• ELUCIDATION</strong>
+                                                    </p>
+                                                  </li>
+
+                                                  <li><p>
+                                                        <strong>• BUILDCON</strong>
+                                                    </p>
+                                                  </li>
+
+                                                  <li><p>
+                                                        <strong>• TENDER FILLING</strong>
+                                                    </p>
+                                                  </li>
+
+                                                  <li><p>
+                                                        <strong>• FLEXOMANIA</strong>
+                                                    </p>
+                                                  </li>
+
+
+                                                </ul>
+                                          </div>
+
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                          </div>
+                                          
+                                    </div>
+
+                                    <div class="col-sm-4"></div>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+
+
+                          <!-- CESA MODAL -->
+
+                          <div class="modal fade" id="modalCesa" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <!-- To customize this modals , we will take help of rows and column feature of bootstrap -->
+                                <div class="row">
+                                    <div class="col-sm-4"></div>
+
+                                    <div class="col-sm-4">
+
+                                          <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Modal Header</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                            <p>This is a large modal.</p>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                          </div>
+                                          
+                                    </div>
+
+                                    <div class="col-sm-4"></div>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+
+
+                          <!--Now we will add the modals for particular events  -->
+
+                          <!-- EVENT 1  -->
+                            <div class="modal fade" id="myModal" role="dialog">
+                              <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                  <!-- To customize this modals , we will take help of rows and column feature of bootstrap -->
+                                  <div class="row">
+                                      <div class="col-sm-4"></div>
+
+                                      <div class="col-sm-4">
+
+                                            <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                              <h4 class="modal-title">Modal Header</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                              <p>This is a large modal.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                            
+                                      </div>
+
+                                      <div class="col-sm-4"></div>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Event 2-->
+
+            </div>          
+    	
 	
    </div><!-- END PAGE WRAP --><div id="back-to-top"><a href="#">Back to Top</a></div>
  
 
            
 
-	<!-- JARVIS THEME SCRIPTS -->
+	     <!-- Scripts that are used in this website -->
 
             <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>         
             <script type="text/javascript" src="js/jquery.tweet.js"></script>         
             <script type="text/javascript" src="js/jquery.form.js"></script>
-        	<script type="text/javascript" src="js/jquery.queryloader2.js"></script>        
+          	<script type="text/javascript" src="js/jquery.queryloader2.js"></script>        
             <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>  
             <script type="text/javascript" src="js/jquery.fitvids.js"></script>  
             <script type="text/javascript" src="js/jquery.appear.js"></script>  
             <script type="text/javascript" src="js/jquery.slabtext.min.js"></script>   
             <script type="text/javascript" src="js/jquery.fittext.js"></script>   
-        	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
-        	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
-        	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-        	<script type="text/javascript" src="js/jquery.sticky.js"></script>
-        	<script type="text/javascript" src="js/selectnav.min.js"></script>    
+          	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+          	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+          	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+          	<script type="text/javascript" src="js/jquery.sticky.js"></script>
+        	  <script type="text/javascript" src="js/selectnav.min.js"></script>    
             <script type="text/javascript" src="js/SmoothScroll.js"></script>   
             <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>    
             <script type="text/javascript" src="js/isotope.js"></script>    
-           <!-- 
-            <script type="text/javascript" src="js/bootstrap-modal.js"></script>   
-           -->
             <script type="text/javascript" src="js/shortcodes.js"></script>     
-        	<script type="text/javascript" src="js/scripts.js"></script>            
+        	  <script type="text/javascript" src="js/scripts.js"></script>            
                    
   	
 </body>

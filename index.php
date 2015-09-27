@@ -162,7 +162,7 @@
                                     <img src="images/CollegeLogo.png" alt="Service Features">
                                   </div>  
                                -->
-                                 <img src="images/CollegeLogo.png" alt="Service Features">
+                                 <img src="images/CollegeLogo.png"  style="width:80px;height:80px;" alt="Service Features">
                                   
                                    <h3>RCOEM</h3>
 
@@ -181,7 +181,7 @@
                                   
                                   </div>  
                                -->
-                                 <img src="images/NeevLogo.png" alt="Service Features">
+                                 <img src="images/NeevLogo.png" style="width:80px;height:80px;" alt="Service Features">
                                   
                                    <h3>NEEV</h3>
 
@@ -200,7 +200,7 @@
                                     <img src="images/CesaLogo.png" alt="Service Features">
                                   </div>  
                                -->
-                                 <img src="images/CesaLogo.png" alt="Service Features">
+                                 <img src="images/CesaLogo.png" style="width:80px;height:80px;" alt="Service Features">
                                   
                                    <h3>CESA</h3>
 
@@ -223,7 +223,7 @@
 
                             <div class="row">
                                <div class="one-third column">
-                                 <div class="milestone-counter" data-perc="20000">
+                                 <div class="milestone-counter" data-perc="15000">
                                    <span class="milestone-count highlight"></span>
                                    <h6 class="milestone-details">Participations</h6>
                                  </div>
@@ -331,7 +331,7 @@
                 
                 <li><a href="#" data-filter=".tenderfilling"><h3>Tender Filling</h3></a></li>
                 
-                <li><a href="#" data-filter=".elucodation" ><h3>Elucidation</h3></a></li>
+                <li><a href="#" data-filter=".elucidation" ><h3>Elucidation</h3></a></li>
           
                 <li><a href="#" data-filter=".flexomania"><h3>Flexomania</h3></a></li>
               
@@ -539,9 +539,13 @@
           	<div class="container clearfix">
                   <div class="sixteen columns">
           	        <!-- START CONTACT BOX -->
+                    <?php /*
+
+                     <!-- --> 
                       <div class="contact-box">
                           <!-- START CONTACT FORM -->
-                          <div id="contact-form">			
+                          <div id="contact-form">
+
                                 <form action="#" method="post">
                                           <div class="subtitle">
                                               <p><br>For more inquiries drop us an email</p>
@@ -578,6 +582,8 @@
           		    <!-- END CONTACT FORM -->
             		  </div>
                   <!-- END CONTACT BOX -->
+                                      */?> 
+
           		</div> <!-- END SIXTEEN COLUMNS -->        
           	</div><!-- END CONTAINER -->
            
@@ -602,7 +608,6 @@
             
             <div class="container">
                 
-                          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Large Modal</button>
 
                           <!-- RCOEM MODAL -->
 
@@ -804,7 +809,9 @@
                                           </div>
                                           <div class="modal-body">
 
-                                            <p>This is a large modal.</p>
+                                            <p>The Civil Engineering Students Association (CESA) was formed with the primary aim of exposing potential civil engineers to the challenges of the profession.The organization is one of the most active Civil Engineering Associations in Central India. CESA organizes activities like lectures by distinguished practitioners of the profession, video shows, competitions and socially relevant projects for the students throughout the year. The CESA prides itself in the lively interaction between the students and faculty. The CESA activities of a year culminate in the NEEV. The festival attracts people from all over Central India and acts as a launching platform for budding civil engineers.
+Currently , Dr.  A.K. Sharma is the Professor Incharge of CESA. The Student Body is headed by Arpit Agrawal (Final Year, B.E.).Noaman Khan and Nisha Ramachandran are Vice Presidents of the Body. The Body are highly supportive and help students to achieve laurels at various levels of Participation. This Body is responsible for the Organisation NEEV 2015. 
+</p>
                                           
                                           </div>
                                           <div class="modal-footer">
@@ -829,9 +836,9 @@
                                 <div class="modal-content">
                                   <!-- To customize this modals , we will take help of rows and column feature of bootstrap -->
                                   <div class="row">
-                                      <div class="col-sm-4"></div>
+                                      <div class="one-half column"></div>
 
-                                      <div class="col-sm-4">
+                                      <div class="one-half column">
 
                                             <div class="modal-header">
                                               <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -840,31 +847,33 @@
                                             </center>
                                             </div>
                                             <div class="modal-body">
-
-                                              <p> “Design is not just what it looks like and feels like. Design is how it works.”
-                                                                      -Steve Jobs
-                                                              Structres  are marvels of engineering and city icons because of their immense influence. They are the one which transforms the city from better to best. Building the structure using innovative thinking  helps to develop a city more efficiently.  A  model making event  gives an opportunity to the budding engineers to showcase their creativity and intelligence for development and to bring a change .It provides  a stage to think beyond the limits of how innovatively a structure can be made using simple mechanics principle .
+                                              <center>
+                                              <strong> “Design is not just what it looks like and feels like. Design is how it works.” </strong>
+                                                
+                                                    <p>                        -Steve Jobs
+                                                    </p>
+                                                </center>
+                                                <hr>
+                                              <p>             Structres  are marvels of engineering and city icons because of their immense influence. They are the one which transforms the city from better to best. Building the structure using innovative thinking  helps to develop a city more efficiently.  A  model making event  gives an opportunity to the budding engineers to showcase their creativity and intelligence for development and to bring a change .It provides  a stage to think beyond the limits of how innovatively a structure can be made using simple mechanics principle .
                                                               NEEV/BUILDCON-2015 , brings to you an opportunity to showcase your own marvel – A Structure with an immaculate blend of creativity and dexterity. Bring a robust and captivating one and remember…Triangles are strong! 
                                                               This event gives a challenge to the participants to make a structure using popsicle sticks and glue as per the problem statement given by the committee .Participants have to bring the structure in the college at the decided event date. The structure is tested as per the said norms of the event.
-                                                              ENTRY TYPE  :Pre registrations are required  to be done and even spot entries are welcomed.
-                                                              Participation Charges- 150 INR per group
-                                                              Participation Format- group includes maximum of 4 members
                                                               Problem statement will  be uploaded soonly ,
-                                                              buildon
-
-
-                                                              Details  - Team of 4 Members
-                                                                           - Problem statement available
-                                                                             on www.civilrcoem.in  
-                                                                           - Finished model testing
-                                                              Time     - 8:30 am on 19th October
-                                                              Fees     - Rs 160/- per team
-                                                              E mail   - buildneev15@gmail.com
-                                                              Contact - Shubham Mahesh
-                                                                              (9923117268)
-
-
-                                                  </p>
+                                                 <br>      
+                                                 <br>            
+                                              
+                                                 <strong> Details  -</strong>Team of 4 Members
+                                                                             - Problem statement available
+                                                                               on www.civilrcoem.in  
+                                                                             - Finished model testing
+                                                  <br>
+                                                  <strong> Time  -</strong> 8:30 am on 19th October            
+                                                  <br>
+                                                  <strong> Fees  -</strong> Rs 160/- per team
+                                                  <br>
+                                                  <strong> E mail  -</strong> buildneev15@gmail.com
+                                                  <br>
+                                                  <strong> Contact  -</strong> Shubham Mahesh (9923117268)      
+                                                </p>
                                             
                                             </div>
                                             <div class="modal-footer">
@@ -873,7 +882,6 @@
                                             
                                       </div>
 
-                                      <div class="col-sm-4"></div>
                                   </div>
 
                                 </div>
@@ -881,7 +889,8 @@
                             </div>
 
                             <!-- Event 2-->
-                            <!-- EVENT 2  -->
+
+                            <!-- EVENT Mad4Cad  -->
                             <div class="modal fade" id="mad4cad" role="dialog">
                               <div class="modal-dialog modal-lg">
                                 <div class="modal-content">
@@ -898,6 +907,355 @@
                                             </center>
                                             </div>
                                             <div class="modal-body">
+                                              <p>
+
+                                                        Competition will be conducted in 2 rounds.
+
+                                              </p>
+
+                                              <strong>Round 1 (Elimination):</strong>
+                                              <p>
+                                                  In this round participants will solve a given problem statement under given time limit. This round will test their drafting speed and skills. The fastest and the finest fingers will be selected for the next round. Around 15-20 participants will be shortlisted.
+                                                  <br>
+                                                    Before stating Round 2 participants will be briefed about the Vastu Concept
+                                              </p>
+                                              <strong>Round 2:</strong>
+                                              <p>
+                                                   In this round, participants will be given a problem statement to draft a residential building keeping in mind the Vastu Concept. They will get an opportunity to test their planning skills, level in time management and showcase their creative skills. They will be judged accordingly.
+                                              </p>
+                                              <p>
+                                                  <div class = "row">
+                                                      <div class="one_half">
+                                                            <strong> Rule : </strong>
+                                                          Rules:
+
+                                                                  1 Participant per entry
+
+                                                                  Computers with pre installed AutoCAD 2015 will be provided. Problem statements will be given at the time of the event
+
+                                                      
+                                                       </div>
+
+                                                      <div class="one_half">
+                                                                     <strong> About   -</strong>AutoCAD
+                                                          <br>
+                                                          <strong> Details  -</strong> Individual Participation
+                                                                                    <br>
+                                                                                    - Round 1 : Elimination
+                                                                                    <br>
+                                                                                    - Round 2 : Final round
+                                                                                    <br>
+                                                          <strong>Time -</strong> - 9:30 am on 19th October
+                                                          <br>
+                                                          <strong> Fees  -</strong> Rs 80/- per head
+                                                          <br>
+                                                          <strong> E mail  -</strong> cadneev15@gmail.com
+                                                          <br>
+                                                          <strong> Contact  -</strong> Shubham Gupta (8605145151)
+                                                      
+                                                      </div>
+                                                   </div>
+                                                        
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                      </div>
+                                      <div class="col-sm-4"></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Event 3-->
+
+                            <!-- EVENT TOWN-O-PLANNER  -->
+                            <div class="modal fade" id="town-o-planner" role="dialog">
+                              <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                  <!-- To customize this modals , we will take help of rows and column feature of bootstrap -->
+                                  <div class="row">
+                                      <div class="col-sm-4"></div>
+
+                                      <div class="col-sm-4">
+
+                                            <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <center>
+                                                <h4 class="modal-title">TOWN-O-PLANNER</h4>
+                                            </center>
+                                            </div>
+                                            <div class="modal-body">
+
+                                              <p> Town planning for land use and the future growth and development is an important activity for the community and governments. This section describes the WHAT, WHY & HOW’s of town planning and ways that planning is a benefit to the community.
+
+                                              <center>
+                                                  <strong> What's Town Planning ?</strong>
+                                              </center>
+
+
+                                              Town planning is a science of organization, it’s not only a reactionary field but also an area concerned with prediction. A big part of town planning is the forecasting of the future needs and requirements of a built up area so that the population will remain happy, healthy and safe.
+                                              <br>
+                                              This means that a great deal of research needs to be done and maintained so that every aspect of each built up area is monitored.
+                                              <center>
+                                                  <strong> Why Do We Need Town Planning ?</strong>
+                                              </center>
+                                              Effective planning ensures that future development will occur where, when, and how the community & government wants. There are several important benefits to the entire community that result from the planning process :
+                                              <ul>
+                                                <li>
+
+                                                        * Quality of life is maintained and improved.
+                                                 </li>
+                                                 <li>       
+                                                        * There is a vision, clearly stated and shared by all, that describes the future of the community.
+                                                </li>
+                                                 <li> 
+                                                        * Private property rights are protected.
+                                                 </li>
+                                                 <li>
+                                                        * Economic development is encouraged and supported.
+                                                </li>
+                                                 <li> 
+                                                        * There is more certainty about where development will occur, what it will be like, when it will happen, and how the costs of development will be met.
+
+                                                </li>
+                                              </ul>
+                                              <center>
+                                                  <strong> How Do We Need To Plan?</strong>
+                                              </center>
+                                              There are several things that you should consider before initiating the planning process : 
+                                              <br>
+                                              <ul>
+                                                <li>
+                                                  * Define priority objectives .
+                                                </li>
+
+                                                <li>
+                                                  * Develop strategy .
+                                                </li>
+
+                                                <li>
+                                                  * Identify and quantify inputs and outputs.
+                                                </li>
+
+                                                <li>
+                                                  * Evaluate city wide ipact compared with objective.
+                                                </li>
+
+                                              </ul>
+                                              <br>
+                                              <center>
+                                                  <strong> About Event?</strong>
+                                              </center>
+                                              <ul>
+                                                <li>
+                                                      1 . In event we will provide No. of stations with their fore bearings, lengths. 
+                                                </li>
+
+                                                <li>
+                                                      2 . In event we will provide No. of stations with their fore bearings, lengths. 
+                                                </li>
+                                                <li>
+                                                      3.  The sheet will be provided by committee & drawing instruments should be brought by the teams
+                                                </li>
+                                                <li>
+                                                      4.  The team members have to plan the layouts & plots as per the norms of local authority.
+                                                </li>
+                                                <li>     
+                                                      5.  The percentage of plot zones will be given to team members they have to plan their layout as per norms & rules.
+                                                </li>
+                                                <li>  
+                                                      6.  The sheets which are not according to norms & rules will be disqualified & the main focus is on ‘SMART CITY’ so teams are supposed to plan their layout as per this theme.
+                                                </li>
+                                                <li>
+                                                      7.  Further details will be uploaded on website.
+                                                </li>
+                                              </ul>
+                                                                                                <br>
+                                                  <strong> Details  -</strong> Team of 4 Members
+                                                                                                                                                       <br>
+                                                  <strong>Time -</strong> - 1:00 am on 19th October
+                                                  <br>
+                                                  <strong> Fees  -</strong> Rs 140/- per head
+                                                  <br>
+                                                  <strong> E mail  -</strong> townneev1515@gmail.com
+                                                  <br>
+                                                  <strong> Contact  -</strong> Mandar Deshpande (9503306979)
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                      </div>
+                                      <div class="col-sm-4"></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Event 4-->
+                            <!-- EVENT TENDER FILLING  -->
+                            <div class="modal fade" id="tenderfilling" role="dialog">
+                              <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                  <!-- To customize this modals , we will take help of rows and column feature of bootstrap -->
+                                  <div class="row">
+                                      <div class="col-sm-4"></div>
+
+                                      <div class="col-sm-4">
+
+                                            <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <center>
+                                                <h4 class="modal-title">TENDER FILLING</h4>
+                                            </center>
+                                            </div>
+                                            <div class="modal-body">
+                                              <p>
+                                                  Filling of live tender. Contestants are invited to fill the tender and its related documents in a stipulated time. The problem statements including the details of the work, it's detailed drawings are published on the Neev website. The contestants are required to refer the website for all the details regarding the documents. A pre-tender conference is held to brief the contestants about the event. The tender filling event is then held as a competition where teams fill the documents, calculate the rates and give their amount of the tender pertaining to the CURRENT SCHEDULE OF RATES(CSR). This is the. Followed by scrutiny of the tenders. The best tenders in terms of rates and documents filled wins.
+                                                  An additional round is proposed where percent rate analysis is done. The top 3 are thus decided by the correctness of the rates in percent filled.
+                                              </p>
+                                              <br>
+                                              <strong>Requirements:</strong>
+                                              <p>
+                                                Main requirement is the printed documents that are required for the contestants to fill. Apart from that, prize money is to be added in the budget. The refreshments for the participating teams during the event is to be added in the budget.
+                                              </p>
+
+                                                                                            <p>
+
+                                                  <strong> About   -</strong>Live Tender
+                                                  <br>
+                                                  <strong> Details  -</strong> Team of 3 Members
+                                                                            <br>
+                                                                            Tender Notice available on 
+                                                                            www.civilrcoem.in
+                                                                            <br>
+                                                                            - Pre-Tender Conference
+                                                                            <br>
+                                                                            - Submission of Tender
+                                                                            <br>
+                                                                            - Opening & Scrutiny of Tender
+                                                                            <br>
+                                                  <strong>Time -</strong> - 8:30 am on 20th October
+                                                  <br>
+                                                  <strong> Fees  -</strong> Rs 150/- per head
+                                                  <br>
+                                                  <strong> E mail  -</strong> tenderneev15@gmail.com
+                                                  <br>
+                                                  <strong> Contact  -</strong> Rajat Jairath (8983062314)
+
+                                                </p>
+
+
+                                            
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                            
+                                      </div>
+
+                                      <div class="col-sm-4"></div>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Event 5 -->
+
+                            <!-- EVENT ELUCIDATION  -->
+                            <div class="modal fade" id="elucidation" role="dialog">
+                              <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                  <!-- To customize this modals , we will take help of rows and column feature of bootstrap -->
+                                  <div class="row">
+                                      <div class="col-sm-4"></div>
+
+                                      <div class="col-sm-4">
+
+                                            <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <center>
+                                                <h4 class="modal-title">ELUCIDATION</h4>
+                                            </center>
+                                            </div>
+                                            <div class="modal-body">
+<center>
+                                              <strong> “KEEP CALM - and enjoy research .” </strong>
+                                                
+                                                    <p>                        -Team Elucidation , NEEV'15
+                                                    </p>
+                                                </center>
+                                                <hr>
+                                              <p>  
+                                                           As budding engineers, we – the students are the recent entreats into a fraternity that has shaped the world right from the Stone Age to the present day – Engineering. Science, Technology and Engineering are disciplines blessed with people who have evolved them through their zealous endeavors. Celebrating the spirit of engineering and technology, 
+                                                           ‘Elucidation’ in NEEV ’15 gives you a chance to be a part of the fraternity by making your contributions in the form of technical papers – research or review papers
+
+                                                 <br>  
+                                                      <ul>
+                                                        <li>
+                                                            i)  <strong>Research Papers : </strong>Present your own research with findings and sum it up into a technical paper
+                                                        </li>
+                                                        <li>
+                                                          ii) <strong>Review Paper: </strong>Choose a field of study and present the significant developments in that field by writing a review to the works of notable researchers. Please note, review paper is different from plagiarism.
+                                                        </li>
+                                                      </ul>    
+                                                 <br>    
+                                                 The event will comprise of two rounds – first abstract submission, in which you’ll be required to submit an abstract of your technical paper to the given address; and the second and final round, which shall be a paper-cum-PowerPoint presentation round, in which the selected papers shall be presented to the judges. 
+
+                                                 <br>
+                                                 Further details shall be uploaded soon . 
+                                                 <br>
+                                              
+                                                 <strong> Details  -</strong>Team of 2 Members
+                                                                             - Abstract Submission before 
+                                                                                11/9/2015  
+                                                                                - elucidneev15@gmail.com
+                                                  <br>
+                                                  <strong> Time  -</strong> 9:00 am on 19th October          
+                                                  <br>
+                                                  <strong> Fees  -</strong> Rs 100/- per team
+                                                  <br>
+                                                  <strong> E mail  -</strong> elucidneev15@gmail.com
+                                                  <br>
+                                                  <strong> Contact  -</strong> Nagesh Bushette (9403865876)      
+                                            
+                                                  </p>
+                                            
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                            
+                                      </div>
+
+                                      <div class="col-sm-4"></div>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <!-- Event 6 -->
+
+                            <!-- EVENT ELUCIDATION  -->
+                            <div class="modal fade" id="flexomania" role="dialog">
+                              <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                  <!-- To customize this modals , we will take help of rows and column feature of bootstrap -->
+                                  <div class="row">
+                                      <div class="col-sm-4"></div>
+
+                                      <div class="col-sm-4">
+
+                                            <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <center>
+                                                <h4 class="modal-title">FLEXOMANIA</h4>
+                                            </center>
+                                            </div>
+                                            <div class="modal-body">
 
                                               <p> “Design is not just what it looks like and feels like. Design is how it works.”
                                                                       -Steve Jobs
@@ -937,6 +1295,7 @@
                                 </div>
                               </div>
                             </div>
+
 
 
 
@@ -975,3 +1334,4 @@
 </body>
 
 </html>
+

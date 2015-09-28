@@ -1122,6 +1122,14 @@ p.quote {
 	width: 20%;
 	padding: 1;
 }
+
+#portfolio-wrap .one-fourth {
+	margin: 0;
+	overflow: hidden;
+	line-height: 0;
+	width: 40%;
+	padding: 1;
+}
 .portfolio-item.current {
 	box-shadow: 0 0px 0px 10px rgba(255, 255, 255, 0.37);
 	z-index: 101;

@@ -50,207 +50,133 @@
 
 <body class="onepage" data-spy="scroll" data-target=".navigation">
 <div id="fb-root"></div>
-<!-- 
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=122098911237141";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
--->
  <div id="load"></div>
- 
-
-    	
-    
     <!-- START PAGE WRAP -->    
     <div class="page-wrap">
-    
-    
-	<!-- START HOME SECTION -->    
-	<div id="home" class="home-parallax">
-      <div class="home-text-wrapper">
-      
-          <div class="home-logo">
-           
-           <!--
-            <a href="#about">Welcome to Thinstrokes</a> 
-            <a href="#about"><img src="images/logo-big.png" alt="Thinstrokes"/></a>-->
-          </div>
-          <!--       
-          Change height of this slider
-             <div id="home-slider" class="flexslider">			
-                  <ul class="slides styled-list">
-                  
-                  <li class="home-slide"><p class="home-slide-content">We are <span class="highlight">Creative</span> Nerds</p></li>
-                  
-                  <li class="home-slide"><p class="home-slide-content">We are <span class="highlight">crazy</span> Designers</p></li>
-                  
-                  <li class="home-slide"><p class="home-slide-content">We design <span class="highlight">Awesome</span> Merchandise</p></li>
-                  
-                  </ul>
-             </div>
-          -->
-          <!-- END FLEXSLIDER -->
-        </div><!-- END HOME TEXT WRAPPER -->
-     </div><!-- END HOME SECTION -->
-	
-	
-	
-    <!-- START NAVIGATION -->
-    <nav class="light sticky-nav navigation">
-     <!-- START CONTAINER -->	
-      <div class="container clearfix">			
-          <div class="four columns">			
-              <!-- START LOGO -->	
-              <div class="logo large">
-                <!-- neev Logo --> 
-                    <a href="#home"><img src="images/NeevLogo.png" alt="Logo"/></a>
-              
-              </div>
-              <!-- END LOGO -->			
-          </div><!-- END FOUR COLUMNS -->   
-          
-                   
-          <div class="twelve columns">            		
-              <!-- START NAVIGATION MENU ITEMS -->
-              <ul class="main-menu large nav" id="nav">
-              
-                  <li><a href="#home">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#portfolio">Events</a></li>
-		              <li><a href="#portfolio">Workshop</a></li>
-                  <li><a href="#services">Gallery</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                  
-              </ul>
-              <!-- END NAVIGATION MENU ITEMS -->				
-          </div><!-- END TWELVE COLUMNS -->	
-      </div><!-- END CONTAINER -->	
-    </nav>
-    <!-- END NAVIGATION -->
-	
-	
-	<!-- START ABOUT US SECTION -->	
-	<div id="about" class="page">
-	
-    		<div class="container">	
-               <div class="row">	
-    		          	<div class="sixteen columns">            
-    	                   <!-- START TITLE -->	            
-    				              <div class="title">
-                    				  <h1>About </h1>
-                                      <div class="subtitle">
-                            
-                                        </div><!-- END SUBTITLE -->
-                           </div><!-- END TITLE -->  	                           
-                      	
-      		          </div><!-- END SIXTEEN COLUMNS -->  
-                </div><!-- END ROW -->  
-      
-                  <div class="row">          
-                        
-                        <!-- Open Modal for RCOEM-->  
-                        <a href="#" class="btn btn-lg btn-success" 
-                                 data-toggle="modal" 
-                                 data-target="#modalRcoem"> 
-                              <div class="one-third column">
-                                <div class="service-features">
-                                 <!-- 
-                                  <div class="img-container">
-                                    <img src="images/CollegeLogo.png" alt="Service Features">
-                                  </div>  
-                               -->
-                                 <img src="images/CollegeLogo.png"  style="width:100px;height:120px;" alt="Service Features">
-                                  
-                                   <h3>RCOEM</h3>
-
-                                 </div>               
-                              </div><!-- END ONE THIRD COLUMN -->
-                          </a>
-                        <!--Open Modal For NEEV -->
-                        <a href="#" class="btn btn-lg btn-success" 
-                                 data-toggle="modal" 
-                                 data-target="#modalNeev"> 
-                              <div class="one-third column">
-                                <div class="service-features">
-                                 <!--  <div class="img-container">
-                                  
-                                    <img src="images/NeevLogo.png" alt="Service Features">
-                                  
-                                  </div>  
-                               -->
-                                 <img src="images/logo.png" style="width:180px;height:120px;" alt="Service Features">
-                                  
-                                   <h3>NEEV</h3>
-
-                                 </div>               
-                              </div><!-- END ONE THIRD COLUMN -->
-                          </a>
+                	<!-- START HOME SECTION -->    
+                	<div id="home" class="home-parallax">
+                      <div class="home-text-wrapper">
+                          <br><br><br><br><br><br>
+                          <div class="home-logo">
+                          </div>
+                        </div><!-- END HOME TEXT WRAPPER -->
+                  </div><!-- END HOME SECTION -->
+                  <!-- START NAVIGATION -->
+                    <nav class="light sticky-nav navigation">
+                     <!-- START CONTAINER -->	
+                      <div class="container clearfix">			
+                          <div class="four columns">			
+                              <!-- START LOGO -->	
+                              <div class="logo large">
+                                <!-- neev Logo --> 
+                                    <a href="#home"><img src="images/NeevLogo.png" alt="Logo"/></a>
+                              
+                              </div>
+                              <!-- END LOGO -->			
+                          </div><!-- END FOUR COLUMNS -->   
                           
-                          <!--Open Modal For CESA -->
-                        <a href="#" class="btn btn-lg btn-success" 
-                                 data-toggle="modal" 
-                                 data-target="#modalCesa"> 
-                              <div class="one-third column">
-                                <div class="service-features">
-                                 <!--  
-                                  <div class="img-container">
-                                    <img src="images/CesaLogo.png" alt="Service Features">
-                                  </div>  
-                               -->
-                                 <img src="images/CesaLogo.png" style="width:130px;height:120px;" alt="Service Features">
+                                   
+                          <div class="twelve columns">            		
+                              <!-- START NAVIGATION MENU ITEMS -->
+                              <ul class="main-menu large nav" id="nav">
+                              
+                                  <li><a href="#home">Home</a></li>
+                                  <li><a href="#about">About</a></li>
+                                  <li><a href="#portfolio">Events</a></li>
+                		              <li><a href="#portfolio">Workshop</a></li>
+                                  <li><a href="#services">Gallery</a></li>
+                                  <li><a href="#contact">Contact</a></li>
                                   
-                                   <h3>CESA</h3>
+                              </ul>
+                              <!-- END NAVIGATION MENU ITEMS -->				
+                          </div><!-- END TWELVE COLUMNS -->	
+                      </div><!-- END CONTAINER -->	
+                    </nav>
+                    <!-- END NAVIGATION -->
+                <!-- START ABOUT US SECTION -->	
+                  <div id="about" class="page">
 
-                                 </div>               
-                              </div><!-- END ONE THIRD COLUMN -->
-                          </a>
-                           
-                    </div><!-- END ROW -->                                
-             
-              </div><!-- END CONTAINER -->
-              
+                    		<div class="container">	
+                               <div class="row">	
+                    		          	<div class="sixteen columns">            
+                    	                   <!-- START TITLE -->	            
+                    				              <div class="title">
+                                    				  <h1>About </h1>
+                                                      <div class="subtitle">
+                                            
+                                                        </div><!-- END SUBTITLE -->
+                                           </div><!-- END TITLE -->  	                           
+                                      	
+                      		          </div><!-- END SIXTEEN COLUMNS -->  
+                                </div><!-- END ROW -->  
+                      
+                                  <div class="row">          
+                                        
+                                        <!-- Open Modal for RCOEM-->  
+                                        <a href="#" class="btn btn-lg btn-success" 
+                                                 data-toggle="modal" 
+                                                 data-target="#modalRcoem"> 
+                                              <div class="one-third column">
+                                                <div class="service-features">
+                                                 <img src="images/CollegeLogo.png"  style="width:100px;height:120px;" alt="Service Features">
+                                                   <h3>RCOEM</h3>
+                                                 </div>               
+                                              </div><!-- END ONE THIRD COLUMN -->
+                                          </a>
+                                        <!--Open Modal For NEEV -->
+                                        <a href="#" class="btn btn-lg btn-success" 
+                                                 data-toggle="modal" 
+                                                 data-target="#modalNeev"> 
+                                              <div class="one-third column">
+                                                <div class="service-features">
+                                                 <img src="images/logo.png" style="width:180px;height:120px;" alt="Service Features">
+                                                   <h3>NEEV</h3>
+                                                 </div>               
+                                              </div><!-- END ONE THIRD COLUMN -->
+                                          </a>
+                                          <!--Open Modal For CESA -->
+                                        <a href="#" class="btn btn-lg btn-success" 
+                                                 data-toggle="modal" 
+                                                 data-target="#modalCesa"> 
+                                              <div class="one-third column">
+                                                <div class="service-features">
+                                                 <img src="images/CesaLogo.png" style="width:130px;height:120px;" alt="Service Features">
+                                                   <h3>CESA</h3>
+                                                 </div>               
+                                              </div><!-- END ONE THIRD COLUMN -->
+                                          </a>
+                                    </div><!-- END ROW -->                                
+                              </div><!-- END CONTAINER -->
+                          <div class="fullwidth grey">
+                                <div class="container">  
+                                    <div class="fancy-header2">       
+                                       <h2 class="highlight">Some Facts About Neev</h2>
+                                    </div>
+                                        <div class="row">
+                                           <div class="one-third column">
+                                             <div class="milestone-counter" data-perc="15000">
+                                               <span class="milestone-count highlight"></span>
+                                               <h6 class="milestone-details">Participations</h6>
+                                             </div>
+                                           </div><!-- END FOUR COLUMNS -->  
+                                           <div class="one-third column">
+                                             <div class="milestone-counter" data-perc="15">
+                                               <span class="milestone-count highlight"></span>
+                                               <h6 class="milestone-details">Workshops</h6>
+                                             </div>
+                                           </div><!-- END FOUR COLUMNS --> 
+                                           <div class="one-third column">
+                                             <div class="milestone-counter" data-perc="75000">
+                                               <span class="milestone-count highlight"></span>
+                                               <h6 class="milestone-details">Prizes(Per Year)</h6>
+                                             </div>
+                                           </div><!-- END FOUR COLUMNS --> 
+                                       </div><!-- END ROW -->    
+                                 </div><!-- END CONTAINER --> 
+                                </div>        
+                    	  </div>
 
-
-              <div class="fullwidth grey">
-                    <div class="container">  
-                        <div class="fancy-header2">       
-                           <h2 class="highlight">Some Facts About Neev</h2>
-                        </div>
-                           
-
-                            <div class="row">
-                               <div class="one-third column">
-                                 <div class="milestone-counter" data-perc="15000">
-                                   <span class="milestone-count highlight"></span>
-                                   <h6 class="milestone-details">Participations</h6>
-                                 </div>
-                               </div><!-- END FOUR COLUMNS -->  
-                               <div class="one-third column">
-                                 <div class="milestone-counter" data-perc="15">
-                                   <span class="milestone-count highlight"></span>
-                                   <h6 class="milestone-details">Workshops</h6>
-                                 </div>
-                               </div><!-- END FOUR COLUMNS --> 
-                               
-                               <div class="one-third column">
-                                 <div class="milestone-counter" data-perc="75000">
-                                   <span class="milestone-count highlight"></span>
-                                   <h6 class="milestone-details">Prizes(Per Year)</h6>
-                                 </div>
-                               </div><!-- END FOUR COLUMNS --> 
-                                                                                                                  
-                           </div><!-- END ROW -->    
-                     </div><!-- END CONTAINER --> 
-                    </div>        
-                       
-                            
-                    		
-        	  </div>
-  
-	  <!-- End ABOUT US SECTION -->
+                <!-- End ABOUT US SECTION -->
 	
 	
 	<!-- START PARALLAX SECTION -->	
@@ -344,6 +270,8 @@
                         
    <!-- START PORTFOLIO WRAP -->  
    <div id="portfolio-wrap">
+
+            
               <!-- START PORTFOLIO ITEM -->                   
               <div class="portfolio-item one-third column buildcon">
                      <div class="portfolio">
@@ -877,7 +805,7 @@ Currently , Dr.  A.K. Sharma is the Professor Incharge of CESA. The Student Body
                                                                            -Steve Jobs
                                                     
                                                 </center>
-                                              <hr>
+                                              
                                               <p>             Structres  are marvels of engineering and city icons because of their immense influence. They are the one which transforms the city from better to best. Building the structure using innovative thinking  helps to develop a city more efficiently.  A  model making event  gives an opportunity to the budding engineers to showcase their creativity and intelligence for development and to bring a change .It provides  a stage to think beyond the limits of how innovatively a structure can be made using simple mechanics principle .
                                                               <br>
                                                               <br>
@@ -982,7 +910,7 @@ Currently , Dr.  A.K. Sharma is the Professor Incharge of CESA. The Student Body
                                                           <br>
                                                           <strong> E mail  -</strong> cadneev15@gmail.com
                                                           <br>
-                                                          <strong> Contact  -</strong> Shubham Gupta (8605145151)
+                                                          <strong> Contact  -</strong> Aman Dhundhele (09765502457)
                                                       
                                                       </div>
                                                    </div>
@@ -1085,34 +1013,31 @@ Currently , Dr.  A.K. Sharma is the Professor Incharge of CESA. The Student Body
                                                 </li>
 
                                                 <li>
-                                                      2 . In event we will provide No. of stations with their fore bearings, lengths. 
+                                                      2.  The sheet will be provided by committee & drawing instruments should be brought by the teams
                                                 </li>
                                                 <li>
-                                                      3.  The sheet will be provided by committee & drawing instruments should be brought by the teams
-                                                </li>
-                                                <li>
-                                                      4.  The team members have to plan the layouts & plots as per the norms of local authority.
+                                                      3.  The team members have to plan the layouts & plots as per the norms of local authority.
                                                 </li>
                                                 <li>     
-                                                      5.  The percentage of plot zones will be given to team members they have to plan their layout as per norms & rules.
+                                                      4.  The percentage of plot zones will be given to team members they have to plan their layout as per norms & rules.
                                                 </li>
                                                 <li>  
-                                                      6.  The sheets which are not according to norms & rules will be disqualified & the main focus is on ‘SMART CITY’ so teams are supposed to plan their layout as per this theme.
+                                                      5.  The sheets which are not according to norms & rules will be disqualified & the main focus is on ‘SMART CITY’ so teams are supposed to plan their layout as per this theme.
                                                 </li>
                                                 <li>
-                                                      7.  Further details will be uploaded on website.
+                                                      6.  Further details will be uploaded on website.
                                                 </li>
                                               </ul>
                                                                                                 <br>
                                                   <strong> Details  -</strong> Team of 4 Members
                                                                                                                                                        <br>
-                                                  <strong>Time -</strong> - 1:00 pm on 19th October
+                                                  <strong>Time -</strong> - 8:30 am on 20th October
                                                   <br>
-                                                  <strong> Fees  -</strong> Rs 140/- per head
+                                                  <strong> Fees  -</strong> Rs 140/- per team
                                                   <br>
                                                   <strong> E mail  -</strong> townneev15@gmail.com
                                                   <br>
-                                                  <strong> Contact  -</strong> Mandar Deshpande (9503306979)
+                                                  <strong> Contact  -</strong> Mandar Deshpande (09503306979)
                                             </div>
                                             <div class="modal-footer">
                                               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1164,13 +1089,13 @@ Currently , Dr.  A.K. Sharma is the Professor Incharge of CESA. The Student Body
                                                                             <br>
                                                                             - Opening & Scrutiny of Tender
                                                                             <br>
-                                                  <strong>Time -</strong> - 8:30 am on 20th October
+                                                  <strong>Time -</strong> - 9:30 am on 19th October
                                                   <br>
-                                                  <strong> Fees  -</strong> Rs 150/- per head
+                                                  <strong> Fees  -</strong> Rs 150/- per team
                                                   <br>
                                                   <strong> E mail  -</strong> tenderneev15@gmail.com
                                                   <br>
-                                                  <strong> Contact  -</strong> Rajat Jairath (8983062314)
+                                                  <strong> Contact  -</strong> Rajat Jairath (08983062314)
 
                                                 </p>
 
@@ -1230,10 +1155,44 @@ Currently , Dr.  A.K. Sharma is the Professor Incharge of CESA. The Student Body
                                                         </li>
                                                       </ul>    
                                                  <br>    
+
                                                  The event will comprise of two rounds – first abstract submission, in which you’ll be required to submit an abstract of your technical paper to the given address; and the second and final round, which shall be a paper-cum-PowerPoint presentation round, in which the selected papers shall be presented to the judges. 
 
                                                  <br>
-                                                 Further details shall be uploaded soon . 
+
+                                                 <br>
+                                                 <strong>Topics For Presentation : </strong> 
+                                                 
+                                                 <ul>
+                                                    <li>
+                                                          * Hydraulics and water resources 
+                                                    </li>
+
+                                                    <li>
+                                                          * Environmental Engineering 
+                                                    </li> 
+
+                                                    <li>
+                                                          * Transportation  
+                                                    </li> 
+
+                                                    <li>
+                                                          * Structural Dynamics 
+                                                    </li>  
+
+                                                    <li>
+                                                          * Construction Management 
+                                                    </li> 
+
+                                                    <li>
+                                                          * Architecture  And Vastu
+                                                    </li> 
+
+                                                    <li>
+                                                          * Concrete Technology  
+                                                    </li> 
+
+                                                 </ul>  
                                                  <br>
                                               
                                                  <strong> Details  -</strong>Team of 2 Members
@@ -1247,7 +1206,7 @@ Currently , Dr.  A.K. Sharma is the Professor Incharge of CESA. The Student Body
                                                   <br>
                                                   <strong> E mail  -</strong> elucidneev15@gmail.com
                                                   <br>
-                                                  <strong> Contact  -</strong> Nagesh Bushette (9403865876)      
+                                                  <strong> Contact  -</strong> Nagesh Bushette (09403865876)      
                                             
                                                   </p>
                                             

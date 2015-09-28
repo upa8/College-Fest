@@ -34,6 +34,7 @@
 
     
  	<link id="layout_color" href="css/light.css" rel="stylesheet" type="text/css"/>  
+
     <link id="primary_color_scheme" href="css/colors/yellow.css" rel="stylesheet" type="text/css"/>   
 
 
@@ -76,7 +77,6 @@
            <!--
             <a href="#about">Welcome to Thinstrokes</a> 
             <a href="#about"><img src="images/logo-big.png" alt="Thinstrokes"/></a>-->
-            <br><br><br><br><br><br><br>
           </div>
           <!--       
           Change height of this slider
@@ -106,7 +106,7 @@
               <!-- START LOGO -->	
               <div class="logo large">
                 <!-- neev Logo --> 
-                    <a href="#home"><img src="images/logo.png" alt="Logo"/></a>
+                    <a href="#home"><img src="images/NeevLogo.png" alt="Logo"/></a>
               
               </div>
               <!-- END LOGO -->			
@@ -181,7 +181,7 @@
                                   
                                   </div>  
                                -->
-                                 <img src="images/NeevLogo.png" style="width:150px;height:120px;" alt="Service Features">
+                                 <img src="images/logo.png" style="width:180px;height:120px;" alt="Service Features">
                                   
                                    <h3>NEEV</h3>
 
@@ -200,7 +200,7 @@
                                     <img src="images/CesaLogo.png" alt="Service Features">
                                   </div>  
                                -->
-                                 <img src="images/CesaLogo.png" style="width:150px;height:120px;" alt="Service Features">
+                                 <img src="images/CesaLogo.png" style="width:130px;height:120px;" alt="Service Features">
                                   
                                    <h3>CESA</h3>
 
@@ -514,6 +514,7 @@
 
   <!-- START CONTACT SECTION -->
 	<div id="contact" class="page">
+        <!-- 
           <!-- START PARALLAX SECTION -->
           	<div id="parallax4" class="parallax">
                   <div class="bg4 parallax-bg">
@@ -525,6 +526,7 @@
                   <div class="container clearfix">
                   </div><!-- END PARALLAX CONTENT -->
              </div>  <!-- END PARALLAX SECTION -->    
+         -->
           <br>
           
             <div class="row"> 
@@ -595,6 +597,7 @@
                         <div class="social-icons">
                         </div>
       			             <p>&copy; 2015- CIVIL ROCEM</a>. All Rights Reserved. </p>
+                         <center>Designed and developed by CSE RCOEM</center>
                      </div> <!-- END SIXTEEN COLUMNS -->        
       	         </div><!-- END CONTAINER -->
             </div>
@@ -831,7 +834,7 @@
                                           <div class="modal-body">
 
                                             <p>The Civil Engineering Students Association (CESA) was formed with the primary aim of exposing potential civil engineers to the challenges of the profession.The organization is one of the most active Civil Engineering Associations in Central India. CESA organizes activities like lectures by distinguished practitioners of the profession, video shows, competitions and socially relevant projects for the students throughout the year. The CESA prides itself in the lively interaction between the students and faculty. The CESA activities of a year culminate in the NEEV. The festival attracts people from all over Central India and acts as a launching platform for budding civil engineers.
-Currently , Dr.  A.K. Sharma is the Professor Incharge of CESA. The Student Body is headed by Arpit Agrawal (Final Year, B.E.).Noaman Khan and Nisha Ramachandran are Vice Presidents of the Body. The Body are highly supportive and help students to achieve laurels at various levels of Participation. This Body is responsible for the Organisation NEEV 2015. 
+Currently , Dr.  A.K. Sharma is the Professor Incharge of CESA. The Student Body is headed by Mr. Arpit Agrawal (Final Year, B.E.). Mr. Noaman Khan and Miss Nisha Ramachandran are Vice Presidents of the Body. The Body are highly supportive and help students to achieve laurels at various levels of Participation. This Body is responsible for the Organisation NEEV 2015. 
 </p>
                                           
                                           </div>
@@ -879,8 +882,15 @@ Currently , Dr.  A.K. Sharma is the Professor Incharge of CESA. The Student Body
                                                               <br>
                                                               <br>
                                                               NEEV/BUILDCON-2015 , brings to you an opportunity to showcase your own marvel – A Structure with an immaculate blend of creativity and dexterity. Bring a robust and captivating one and remember…Triangles are strong! 
-                                                              This event gives a challenge to the participants to make a structure using popsicle sticks and glue as per the problem statement given by the committee .Participants have to bring the structure in the college at the decided event date. The structure is tested as per the said norms of the event.
-                                                              Problem statement will  be uploaded soonly ,
+                                                              This event gives a challenge to the participants to make a structure using popsicle sticks and glue as per the problem statement given by the committee .Participants have to bring the structure in the college at the decided event date. The structure is tested as per the said norms of the event.<br>
+                                                             <a href="#"  data-toggle="modal" 
+                                                                               data-target="#problem_statement" style="color:blue" >
+                                                                                       <strong> Click here to open problem statement </strong>  
+                                                               <a >                        
+                                                                <br>
+                                                                <a href="files/buildcon_prob.pdf" style="color:blue" download>
+                                                                    <strong>Click here to download problem statement </strong> 
+                                                                </a>
                                                  <br>      
                                                  <br>            
                                               
@@ -1292,6 +1302,44 @@ Currently , Dr.  A.K. Sharma is the Professor Incharge of CESA. The Student Body
                                 </div>
                               </div>
                             </div>
+
+                             <!-- Problem Statement Buildcon-->
+
+                            <!-- Problem Statement Buildcon  -->
+                            <div class="modal fade" id="problem_statement" role="dialog">
+                              <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                  <!-- To customize this modals , we will take help of rows and column feature of bootstrap -->
+                                  <div class="row">
+                                      <div class="col-sm-4"></div>
+
+                                      <div class="col-sm-4">
+
+                                            <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <center>
+                                                <h4 class="modal-title">Problem Statement</h4>
+                                            </center>
+                                            </div>
+                                            <div class="modal-body">
+                                                
+                                                  <embed src="files/buildcon_prob.pdf" width="500px" height="2100px">
+                                            
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                            
+                                      </div>
+
+                                      <div class="col-sm-4"></div>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+
+
 
 
 

@@ -162,7 +162,7 @@
                                     <img src="images/CollegeLogo.png" alt="Service Features">
                                   </div>  
                                -->
-                                 <img src="images/CollegeLogo.png"  style="width:80px;height:80px;" alt="Service Features">
+                                 <img src="images/CollegeLogo.png"  style="width:100px;height:120px;" alt="Service Features">
                                   
                                    <h3>RCOEM</h3>
 
@@ -181,7 +181,7 @@
                                   
                                   </div>  
                                -->
-                                 <img src="images/NeevLogo.png" style="width:80px;height:80px;" alt="Service Features">
+                                 <img src="images/NeevLogo.png" style="width:150px;height:120px;" alt="Service Features">
                                   
                                    <h3>NEEV</h3>
 
@@ -200,7 +200,7 @@
                                     <img src="images/CesaLogo.png" alt="Service Features">
                                   </div>  
                                -->
-                                 <img src="images/CesaLogo.png" style="width:80px;height:80px;" alt="Service Features">
+                                 <img src="images/CesaLogo.png" style="width:150px;height:120px;" alt="Service Features">
                                   
                                    <h3>CESA</h3>
 
@@ -260,7 +260,7 @@
 		<div class="container clearfix">
 			<div class="parallax-content">
 			
-      	   <h2 >We shape our Buildings There after they change us</h2>
+      	   <h2 style="color:white">We shape our buildings there after they shape us</h2>
                       
       </div><!-- END PARALLAX CONTENT -->
 		</div><!-- END CONTAINER -->
@@ -630,29 +630,33 @@
                                           </div>
                                           <div class="modal-body">
                                             <p>RCOEM, situated in the heart of India in Nagpur city, was established in 1984 by Shri Ramdeobaba Sarvajanik Samiti, a trust which has been involved in community service for over four decades. 30 years of existence has helped RCOEM grow deep roots and establish a strong foundation in technical education. Journey of a student in this institute has always involved comprehensive knowledge building from practical skills, theoretical knowledge to personality development, which has given them a head-start in their career.</p>
-                                            <hr>
-                                            <br>
-                                            <h3>Our Vision</h3>
+                                            <center>
+                                                <h4>Our Vision</h4>
+                                            </center>
                                             <p>
                                               Shri Ramdeobaba College of Engineering and Management envisages the institute par excellence, providing world class Technical and Management Education.
                                             </p>
-                                            <hr>
-                                            <br>
-                                            <h3>
-                                              Our Mission
-                                            </h3>
-                                            <p>To impart quality education in the field of Engineering and Management; to foster mutually beneficial relationship with industries; to create intellectually stimulating environment for learning, research, and promotion of professional and ethical values.</p>
-                                            <hr>
-                                            <br>
-                                            <h3>
+                                          <center>
+                                              <h4>
+                                                Our Mission
+                                              </h4>
+                                          </center>
+                                           <p>To impart quality education in the field of Engineering and Management; to foster mutually beneficial relationship with industries; to create intellectually stimulating environment for learning, research, and promotion of professional and ethical values.</p>
+                                            
+                                          <center>
+                                            <h4>
                                               Autonomy
-                                            </h3>
+                                            </h4>
+                                          </center>
+                                          
                                             <p>RCOEM was granted progressive academic autonomy from the session 2011-12. Various statutory bodies such as Board of Management, Academic Council, Board of Studies, and Finance Committee have been constituted and an industry need-based syllabus has been introduced.</p>
-                                            <hr>
-                                            <br>
-                                            <h3>
+                                          
+                                          <center>
+                                            <h4>
                                               Quality Policy
-                                            </h3>
+                                            </h4>
+                                          </center>
+                                          
                                             <p>Shri Ramdeobaba College of Engineering and Management is committed to achieve exemplary standards in Engineering and Management Education. 
 
                                                   We aim at continuous improvement of all our processes and will strive to provide environment conducive to the pursuit of knowledge and overall personality development. 
@@ -697,79 +701,96 @@
                                                 The SMART City concept not only requires development of Structures but to infuse these Structures with Information Technology. A Civil Engineer hence must have a sound knowledge of the accommodation of the Concepts of Information Technology in development of Infrastructure. Stress will be on Clean Energy Initiatives and Improving Quality Standards of lifestyle of people. It also involves Exploring new Horizons through Entrepreneurship Development.
                                                 It is with constant perseverance that Civil Engineering Department tries to bring out a bigger and better version of NEEV every year. The three day program also includes technical competition like Computer Aided Design (AUTOCAD), Town Planning, Technical Paper Presentation, Tendering etc. Cultural programs in the evening to make the whole event livelier.
                                             </p>
-                                            <hr>
-                                            <br>
-                                            <h3>
-                                              WORKSHOP
-                                            </h3>             
+                                          <center>
+                                            <h4>
+                                              WORKSHOP ON DEVELOPMENT OF SMART CITIES
+                                            </h4>
+                                            <p><strong><ins>(Aspects And  Prospects of Developing Smart Cities) </ins></strong></p>
+                                           </center>              
                                             <ul>
-                                              <li> <strong>• Overview of Smart City :</strong>
-                                                  Manager,Tata Consulting Engineers(TCE)  
+                                              <li> <strong>• Overview of Smart City </strong>
+                                                    
                                               </li> 
 
-                                              <li> <strong>• Sustainable TransportationSystem:</strong>
-                                                  Member,Indian Road Congress(IRC)  
+                                              <li> <strong>• Sustainable TransportationSystem</strong>
+                                                  
                                               </li>
 
-                                              <li> <strong>• Enviromental control Measures (sanitation system):</strong>
-                                                  Professor,NIT Raipur
+                                              <li> <strong>• Enviromental control Measures (Waste management)</strong>
+                                                  
                                               </li>
 
-                                              <li> <strong>• Green Building:</strong>
-                                                  Professor,VNIT  
+                                              <li> <strong>• Green Building</strong>
+                                                    
                                               </li>
 
-                                              <li> <strong>• Urban Development :</strong>                                                
-                                                        IES officer,urban Development Board
+                                              <li> <strong>• Urban Development </strong>                                                
+                                                  
                                               </li>
 
-                                              <li> <strong>• Tourism:</strong>
-                                                  IES Officer,Mumbai  
+                                              <li> <strong>• Eco Friendly Tourism</strong>
+                                                    
                                               </li>
 
-                                              <li> <strong>• ICT(Information and Comminication Technology) :</strong>
-                                                  Professor,RCOEM(PhD,Information Technology)
+                                              <li> <strong>• ICT(Information and Comminication Technology) </strong>
+                                                  
                                               </li>      
 
-                                              <li> <strong>• GIS and Remote Sensing:</strong>
+                                              <li> <strong>• GIS and Remote Sensing </strong>
                                                   
                                               </li>            
+
+                                              <li> <strong>• Entrepreneurship Development </strong>
+                                                  
+                                              </li>
+
+                                              <li> <strong>• Street Funrnitures </strong>
+                                                  
+                                              </li>                        
+
+                                              <li> <strong>• Solar Energy </strong>
+                                                  
+                                              </li> 
+
+                                              <li> <strong>• Water Supply </strong>
+                                                  
+                                              </li>                                               
                                             </ul>
-                                            <hr>
-                                            <br>
-                                            <h3>
+                                           <center>
+                                            <h4>
                                                 ACTIVITES @NEEV
-                                            </h3>     
-                                                <h4><strong>COMPETITION</strong></h4>
+                                            </h4>  
+                                           </center>     
+                                                <p><strong>Competitions</strong></p>
                                                 <ul>
-                                                  <li><p>
+                                                  <li>
                                                         <strong>• MAD4CAD</strong>
-                                                    </p>
+                                                    
                                                   </li>
 
-                                                  <li><p>
+                                                  <li>
                                                         <strong>• TOWN O PLANNER</strong>
-                                                    </p>
+                                                    
                                                   </li>
 
-                                                  <li><p>
+                                                  <li>
                                                         <strong>• ELUCIDATION</strong>
-                                                    </p>
+                                                    
                                                   </li>
 
-                                                  <li><p>
+                                                  <li>
                                                         <strong>• BUILDCON</strong>
-                                                    </p>
+                                                    
                                                   </li>
 
-                                                  <li><p>
+                                                  <li>
                                                         <strong>• TENDER FILLING</strong>
-                                                    </p>
+                                                    
                                                   </li>
 
-                                                  <li><p>
+                                                  <li>
                                                         <strong>• FLEXOMANIA</strong>
-                                                    </p>
+                                                    
                                                   </li>
 
 
@@ -850,11 +871,13 @@ Currently , Dr.  A.K. Sharma is the Professor Incharge of CESA. The Student Body
                                               <center>
                                               <strong> “Design is not just what it looks like and feels like. Design is how it works.” </strong>
                                                 
-                                                    <p>                        -Steve Jobs
-                                                    </p>
+                                                                           -Steve Jobs
+                                                    
                                                 </center>
-                                                <hr>
+                                              <hr>
                                               <p>             Structres  are marvels of engineering and city icons because of their immense influence. They are the one which transforms the city from better to best. Building the structure using innovative thinking  helps to develop a city more efficiently.  A  model making event  gives an opportunity to the budding engineers to showcase their creativity and intelligence for development and to bring a change .It provides  a stage to think beyond the limits of how innovatively a structure can be made using simple mechanics principle .
+                                                              <br>
+                                                              <br>
                                                               NEEV/BUILDCON-2015 , brings to you an opportunity to showcase your own marvel – A Structure with an immaculate blend of creativity and dexterity. Bring a robust and captivating one and remember…Triangles are strong! 
                                                               This event gives a challenge to the participants to make a structure using popsicle sticks and glue as per the problem statement given by the committee .Participants have to bring the structure in the college at the decided event date. The structure is tested as per the said norms of the event.
                                                               Problem statement will  be uploaded soonly ,
@@ -862,8 +885,6 @@ Currently , Dr.  A.K. Sharma is the Professor Incharge of CESA. The Student Body
                                                  <br>            
                                               
                                                  <strong> Details  -</strong>Team of 4 Members
-                                                                             - Problem statement available
-                                                                               on www.civilrcoem.in  
                                                                              - Finished model testing
                                                   <br>
                                                   <strong> Time  -</strong> 8:30 am on 19th October            
@@ -1075,11 +1096,11 @@ Currently , Dr.  A.K. Sharma is the Professor Incharge of CESA. The Student Body
                                                                                                 <br>
                                                   <strong> Details  -</strong> Team of 4 Members
                                                                                                                                                        <br>
-                                                  <strong>Time -</strong> - 1:00 am on 19th October
+                                                  <strong>Time -</strong> - 1:00 pm on 19th October
                                                   <br>
                                                   <strong> Fees  -</strong> Rs 140/- per head
                                                   <br>
-                                                  <strong> E mail  -</strong> townneev1515@gmail.com
+                                                  <strong> E mail  -</strong> townneev15@gmail.com
                                                   <br>
                                                   <strong> Contact  -</strong> Mandar Deshpande (9503306979)
                                             </div>
@@ -1126,9 +1147,7 @@ Currently , Dr.  A.K. Sharma is the Professor Incharge of CESA. The Student Body
                                                   <br>
                                                   <strong> Details  -</strong> Team of 3 Members
                                                                             <br>
-                                                                            Tender Notice available on 
-                                                                            www.civilrcoem.in
-                                                                            <br>
+
                                                                             - Pre-Tender Conference
                                                                             <br>
                                                                             - Submission of Tender
@@ -1256,31 +1275,9 @@ Currently , Dr.  A.K. Sharma is the Professor Incharge of CESA. The Student Body
                                             </center>
                                             </div>
                                             <div class="modal-body">
-
-                                              <p> “Design is not just what it looks like and feels like. Design is how it works.”
-                                                                      -Steve Jobs
-                                                              Structres  are marvels of engineering and city icons because of their immense influence. They are the one which transforms the city from better to best. Building the structure using innovative thinking  helps to develop a city more efficiently.  A  model making event  gives an opportunity to the budding engineers to showcase their creativity and intelligence for development and to bring a change .It provides  a stage to think beyond the limits of how innovatively a structure can be made using simple mechanics principle .
-                                                              NEEV/BUILDCON-2015 , brings to you an opportunity to showcase your own marvel – A Structure with an immaculate blend of creativity and dexterity. Bring a robust and captivating one and remember…Triangles are strong! 
-                                                              This event gives a challenge to the participants to make a structure using popsicle sticks and glue as per the problem statement given by the committee .Participants have to bring the structure in the college at the decided event date. The structure is tested as per the said norms of the event.
-                                                              ENTRY TYPE  :Pre registrations are required  to be done and even spot entries are welcomed.
-                                                              Participation Charges- 150 INR per group
-                                                              Participation Format- group includes maximum of 4 members
-                                                              Problem statement will  be uploaded soonly ,
-                                                              buildon
-
-
-                                                              Details  - Team of 4 Members
-                                                                           - Problem statement available
-                                                                             on www.civilrcoem.in  
-                                                                           - Finished model testing
-                                                              Time     - 8:30 am on 19th October
-                                                              Fees     - Rs 160/- per team
-                                                              E mail   - buildneev15@gmail.com
-                                                              Contact - Shubham Mahesh
-                                                                              (9923117268)
-
-
-                                                  </p>
+                                                <center>
+                                                    <h1>Uploading Soon</h1>
+                                                </center>
                                             
                                             </div>
                                             <div class="modal-footer">

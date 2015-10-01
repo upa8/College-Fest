@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
@@ -1466,3 +1467,5 @@ data-target="#modalCesa">
 
                         </html>
 
+=======
+>>>>>>> 3e4326c81c3326f41483fe6716c0fa2f0c9876a6
